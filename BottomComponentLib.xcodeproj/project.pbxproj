@@ -192,15 +192,6 @@
 			isa = PBXGroup;
 			children = (
 				91B329292176E6EC00DD0042 /* Resouce */,
-				918B57CA21708BF000E9B71D /* Category */,
-				918B57E321708BF000E9B71D /* Config */,
-				918B57E621708BF000E9B71D /* NetWorking */,
-				918B57EB21708BF000E9B71D /* Macro.h */,
-				918B57EC21708BF000E9B71D /* Foundation */,
-				918B57F521708BF000E9B71D /* Document.strings */,
-				918B57F621708BF000E9B71D /* FileManager */,
-				918B57F921708BF000E9B71D /* ZHFFoundation.h */,
-				918B57FA21708BF000E9B71D /* Helper */,
 			);
 			path = SRC;
 			sourceTree = "<group>";
@@ -208,30 +199,30 @@
 		918B57CA21708BF000E9B71D /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				918B57D921708BF000E9B71D /* NSDateFormatter+ShortCut.h */,
 				918B57CB21708BF000E9B71D /* NSDateFormatter+ShortCut.m */,
 				918B57CC21708BF000E9B71D /* UIButton+ZHFShortCut.h */,
+				918B57D821708BF000E9B71D /* UIButton+ZHFShortCut.m */,
 				918B57CD21708BF000E9B71D /* NSArray+ShortCut.h */,
+				918B57D721708BF000E9B71D /* NSArray+ShortCut.m */,
+				918B57DD21708BF000E9B71D /* NSDecimalNumber+ShortCut.h */,
 				918B57CE21708BF000E9B71D /* NSDecimalNumber+ShortCut.m */,
+				918B57DC21708BF000E9B71D /* NSString+ShortCut.h */,
 				918B57CF21708BF000E9B71D /* NSString+ShortCut.m */,
 				918B57D021708BF000E9B71D /* NSDate+ShortCut.h */,
-				918B57D121708BF000E9B71D /* UIColor+Transform.h */,
-				918B57D221708BF000E9B71D /* UIView+Frame.m */,
-				918B57D321708BF000E9B71D /* UILabel+ShortCut.h */,
-				918B57D421708BF000E9B71D /* CAShapeLayer+ShortCut.h */,
-				918B57D521708BF000E9B71D /* UIView+Draw.m */,
-				918B57D621708BF000E9B71D /* UIImage+Custom.m */,
-				918B57D721708BF000E9B71D /* NSArray+ShortCut.m */,
-				918B57D821708BF000E9B71D /* UIButton+ZHFShortCut.m */,
-				918B57D921708BF000E9B71D /* NSDateFormatter+ShortCut.h */,
-				918B57DA21708BF000E9B71D /* UIColor+Transform.m */,
 				918B57DB21708BF000E9B71D /* NSDate+ShortCut.m */,
-				918B57DC21708BF000E9B71D /* NSString+ShortCut.h */,
-				918B57DD21708BF000E9B71D /* NSDecimalNumber+ShortCut.h */,
-				918B57DE21708BF000E9B71D /* CAShapeLayer+ShortCut.m */,
-				918B57DF21708BF000E9B71D /* UILabel+ShortCut.m */,
+				918B57D121708BF000E9B71D /* UIColor+Transform.h */,
+				918B57DA21708BF000E9B71D /* UIColor+Transform.m */,
 				918B57E021708BF000E9B71D /* UIView+Frame.h */,
+				918B57D221708BF000E9B71D /* UIView+Frame.m */,
+				918B57DF21708BF000E9B71D /* UILabel+ShortCut.m */,
+				918B57D321708BF000E9B71D /* UILabel+ShortCut.h */,
+				918B57DE21708BF000E9B71D /* CAShapeLayer+ShortCut.m */,
+				918B57D421708BF000E9B71D /* CAShapeLayer+ShortCut.h */,
 				918B57E121708BF000E9B71D /* UIView+Draw.h */,
+				918B57D521708BF000E9B71D /* UIView+Draw.m */,
 				918B57E221708BF000E9B71D /* UIImage+Custom.h */,
+				918B57D621708BF000E9B71D /* UIImage+Custom.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -249,9 +240,9 @@
 			isa = PBXGroup;
 			children = (
 				918B57E721708BF000E9B71D /* ZHFNetworking.h */,
+				918B57EA21708BF000E9B71D /* ZHFNetworking.m */,
 				918B57E821708BF000E9B71D /* ZHFRequestParameter.h */,
 				918B57E921708BF000E9B71D /* ZHFRequestParameter.m */,
-				918B57EA21708BF000E9B71D /* ZHFNetworking.m */,
 			);
 			path = NetWorking;
 			sourceTree = "<group>";
@@ -259,14 +250,14 @@
 		918B57EC21708BF000E9B71D /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				918B57F121708BF000E9B71D /* ZHFTopWindow.h */,
 				918B57ED21708BF000E9B71D /* ZHFTopWindow.m */,
 				918B57EE21708BF000E9B71D /* ZHFProgressHUD.h */,
-				918B57EF21708BF000E9B71D /* ZHFQRCodeView.h */,
-				918B57F021708BF000E9B71D /* ZHFAlertControlle.m */,
-				918B57F121708BF000E9B71D /* ZHFTopWindow.h */,
-				918B57F221708BF000E9B71D /* ZHFQRCodeView.m */,
 				918B57F321708BF000E9B71D /* ZHFProgressHUD.m */,
+				918B57EF21708BF000E9B71D /* ZHFQRCodeView.h */,
+				918B57F221708BF000E9B71D /* ZHFQRCodeView.m */,
 				918B57F421708BF000E9B71D /* ZHFAlertControlle.h */,
+				918B57F021708BF000E9B71D /* ZHFAlertControlle.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -283,8 +274,8 @@
 		918B57FA21708BF000E9B71D /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				918B57FB21708BF000E9B71D /* Utility.m */,
 				918B57FC21708BF000E9B71D /* Utility.h */,
+				918B57FB21708BF000E9B71D /* Utility.m */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -292,6 +283,15 @@
 		91B329292176E6EC00DD0042 /* Resouce */ = {
 			isa = PBXGroup;
 			children = (
+				918B57CA21708BF000E9B71D /* Category */,
+				918B57E321708BF000E9B71D /* Config */,
+				918B57E621708BF000E9B71D /* NetWorking */,
+				918B57EC21708BF000E9B71D /* Foundation */,
+				918B57F621708BF000E9B71D /* FileManager */,
+				918B57FA21708BF000E9B71D /* Helper */,
+				918B57F921708BF000E9B71D /* ZHFFoundation.h */,
+				918B57EB21708BF000E9B71D /* Macro.h */,
+				918B57F521708BF000E9B71D /* Document.strings */,
 				91B3292A2176E6EC00DD0042 /* phoneNumPrefix.plist */,
 			);
 			path = Resouce;
