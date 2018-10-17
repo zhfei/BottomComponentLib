@@ -1,0 +1,1682 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		
+<key>Number</key>
+		<string>1</string>
+		<key>Name</key>
+		<string>美国</string>
+	         </dict>
+<dict>
+		
+<key>Number</key>
+		<string>1</string>
+		<key>Name</key>
+		<string>加拿大</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>7</string>
+		<key>Name</key>
+		<string>俄罗斯</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>7</string>
+		<key>Name</key>
+		<string>哈萨克斯坦</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>20</string>
+		<key>Name</key>
+		<string>埃及</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>27</string>
+		<key>Name</key>
+		<string>南非</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>30</string>
+		<key>Name</key>
+		<string>希腊</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>31</string>
+		<key>Name</key>
+		<string>荷兰</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>32</string>
+		<key>Name</key>
+		<string>比利时</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>33</string>
+		<key>Name</key>
+		<string>法国</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>34</string>
+		<key>Name</key>
+		<string>西班牙</string>
+  </dict>
+<dict>
+	
+<key>Number</key>
+		<string>36</string>
+		<key>Name</key>
+		<string>匈牙利</string>
+	         </dict>
+<dict>
+		
+<key>Number</key>
+		<string>38</string>
+		<key>Name</key>
+		<string>南斯拉夫</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>39</string>
+		<key>Name</key>
+		<string>意大利</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>40</string>
+		<key>Name</key>
+		<string>罗马尼亚</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>41</string>
+		<key>Name</key>
+		<string>瑞士</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>42</string>
+		<key>Name</key>
+		<string>捷克斯洛伐克</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>43</string>
+		<key>Name</key>
+		<string>奥地利</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>44</string>
+		<key>Name</key>
+		<string>英国</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>45</string>
+		<key>Name</key>
+		<string>丹麦</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>46</string>
+		<key>Name</key>
+		<string>瑞典</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>47</string>
+		<key>Name</key>
+		<string>挪威</string>
+    </dict>
+<dict>
+	
+<key>Number</key>
+		<string>48</string>
+		<key>Name</key>
+		<string>波兰</string>
+	         </dict>
+<dict>
+		
+<key>Number</key>
+		<string>49</string>
+		<key>Name</key>
+		<string>德国</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>51</string>
+		<key>Name</key>
+		<string>秘鲁</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>52</string>
+		<key>Name</key>
+		<string>墨西哥</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>53</string>
+		<key>Name</key>
+		<string>古巴</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>54</string>
+		<key>Name</key>
+		<string>阿根廷</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>55</string>
+		<key>Name</key>
+		<string>巴西</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>56</string>
+		<key>Name</key>
+		<string>智利</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>57</string>
+		<key>Name</key>
+		<string>哥伦比亚</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>58</string>
+		<key>Name</key>
+		<string>委内瑞拉</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>60</string>
+		<key>Name</key>
+		<string>马来西亚</string>
+       </dict>
+<dict>
+	
+<key>Number</key>
+		<string>61</string>
+		<key>Name</key>
+		<string>澳大利亚</string>
+	         </dict>
+<dict>
+		
+<key>Number</key>
+		<string>62</string>
+		<key>Name</key>
+		<string>印度尼西亚</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>63</string>
+		<key>Name</key>
+		<string>菲律宾</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>64</string>
+		<key>Name</key>
+		<string>新西兰</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>65</string>
+		<key>Name</key>
+		<string>新加坡</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>66</string>
+		<key>Name</key>
+		<string>泰国</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>81</string>
+		<key>Name</key>
+		<string>日本</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>82</string>
+		<key>Name</key>
+		<string>韩国</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>84</string>
+		<key>Name</key>
+		<string>越南</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>86</string>
+		<key>Name</key>
+		<string>中国</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>90</string>
+		<key>Name</key>
+		<string>土耳其</string>
+   </dict>
+<dict>
+	
+<key>Number</key>
+		<string>91</string>
+		<key>Name</key>
+		<string>印度</string>
+	         </dict>
+<dict>
+		
+<key>Number</key>
+		<string>92</string>
+		<key>Name</key>
+		<string>巴基斯坦</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>93</string>
+		<key>Name</key>
+		<string>阿富汗</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>94</string>
+		<key>Name</key>
+		<string>斯里兰卡</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>95</string>
+		<key>Name</key>
+		<string>缅甸</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>98</string>
+		<key>Name</key>
+		<string>伊朗</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>211</string>
+		<key>Name</key>
+		<string>南苏丹</string>
+	</dict>
+	<dict>
+	
+<key>Number</key>
+		<string>212</string>
+		<key>Name</key>
+		<string>摩洛哥</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>213</string>
+		<key>Name</key>
+		<string>阿尔及利亚</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>216</string>
+		<key>Name</key>
+		<string>突尼斯</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>218</string>
+		<key>Name</key>
+		<string>利比亚</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>220</string>
+		<key>Name</key>
+		<string>冈比亚</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>221</string>
+		<key>Name</key>
+		<string>塞内加尔</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>222</string>
+		<key>Name</key>
+		<string>毛里塔尼亚</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>223</string>
+		<key>Name</key>
+		<string>马里</string>
+	</dict>
+	<dict>
+	
+<key>Number</key>
+		<string>224</string>
+		<key>Name</key>
+		<string>几内亚</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>225</string>
+		<key>Name</key>
+		<string>科特迪瓦</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>226</string>
+		<key>Name</key>
+		<string>布基纳法索</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>227</string>
+		<key>Name</key>
+		<string>尼日尔</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>228</string>
+		<key>Name</key>
+		<string>多哥</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>229</string>
+		<key>Name</key>
+		<string>贝宁</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>230</string>
+		<key>Name</key>
+		<string>毛里求斯</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>231</string>
+		<key>Name</key>
+		<string>利比里亚</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>232</string>
+		<key>Name</key>
+		<string>塞拉利昂</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>233</string>
+		<key>Name</key>
+		<string>加纳</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>234</string>
+		<key>Name</key>
+		<string>尼日利亚</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>235</string>
+		<key>Name</key>
+		<string>乍得</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>236</string>
+		<key>Name</key>
+		<string>中非共和国</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>237</string>
+		<key>Name</key>
+		<string>喀麦隆</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>238</string>
+		<key>Name</key>
+		<string>佛得角</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>239</string>
+		<key>Name</key>
+		<string>圣多美和普林西比</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>240</string>
+		<key>Name</key>
+		<string>赤道几内亚</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>241</string>
+		<key>Name</key>
+		<string>加蓬</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>242</string>
+		<key>Name</key>
+		<string>刚果共和国（布）</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>243</string>
+		<key>Name</key>
+		<string>刚果民主共和国（金）</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>244</string>
+		<key>Name</key>
+		<string>安哥拉</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>245</string>
+		<key>Name</key>
+		<string>几内亚比绍</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>246</string>
+		<key>Name</key>
+		<string>迪戈加西亚</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>247</string>
+		<key>Name</key>
+		<string>阿森松岛</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>248</string>
+		<key>Name</key>
+		<string>塞舌尔</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>249</string>
+		<key>Name</key>
+		<string>苏丹</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>250</string>
+		<key>Name</key>
+		<string>卢旺达</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>251</string>
+		<key>Name</key>
+		<string>埃塞俄比亚</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>252</string>
+		<key>Name</key>
+		<string>索马里</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>253</string>
+		<key>Name</key>
+		<string>吉布提</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>254</string>
+		<key>Name</key>
+		<string>肯尼亚</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>255</string>
+		<key>Name</key>
+		<string>坦桑尼亚</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>256</string>
+		<key>Name</key>
+		<string>乌干达</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>257</string>
+		<key>Name</key>
+		<string>布隆迪</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>258</string>
+		<key>Name</key>
+		<string>莫桑比克</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>259</string>
+		<key>Name</key>
+		<string>桑给巴尔</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>260</string>
+		<key>Name</key>
+		<string>赞比亚</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>261</string>
+		<key>Name</key>
+		<string>马达加斯加</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>262</string>
+		<key>Name</key>
+		<string>留尼汪</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>263</string>
+		<key>Name</key>
+		<string>津巴布韦</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>264</string>
+		<key>Name</key>
+		<string>纳米比亚</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>265</string>
+		<key>Name</key>
+		<string>马拉维</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>266</string>
+		<key>Name</key>
+		<string>莱索托</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>267</string>
+		<key>Name</key>
+		<string>博茨瓦纳</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>268</string>
+		<key>Name</key>
+		<string>斯威士兰</string>
+	</dict>
+	<dict>
+	
+<key>Number</key>
+		<string>269</string>
+		<key>Name</key>
+		<string>科摩罗和马约特</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>290</string>
+		<key>Name</key>
+		<string>圣赫勒拿</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>291</string>
+		<key>Name</key>
+		<string>厄立特里亚</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>297</string>
+		<key>Name</key>
+		<string>阿鲁巴</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>298</string>
+		<key>Name</key>
+		<string>法罗群岛</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>299</string>
+		<key>Name</key>
+		<string>格陵兰</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>350</string>
+		<key>Name</key>
+		<string>直布罗陀</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>351</string>
+		<key>Name</key>
+		<string>葡萄牙</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>352</string>
+		<key>Name</key>
+		<string>卢森堡</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>353</string>
+		<key>Name</key>
+		<string>爱尔兰</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>354</string>
+		<key>Name</key>
+		<string>冰岛</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>355</string>
+		<key>Name</key>
+		<string>阿尔巴尼亚</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>356</string>
+		<key>Name</key>
+		<string>马耳他</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>357</string>
+		<key>Name</key>
+		<string>塞浦路斯</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>358</string>
+		<key>Name</key>
+		<string>芬兰</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>359</string>
+		<key>Name</key>
+		<string>保加利亚</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>370</string>
+		<key>Name</key>
+		<string>立陶宛</string>
+	</dict>
+	<dict>
+			
+<key>Number</key>
+		<string>371</string>
+		<key>Name</key>
+		<string>拉脱维亚</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>372</string>
+		<key>Name</key>
+		<string>爱沙尼亚</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>373</string>
+		<key>Name</key>
+		<string>摩尔多瓦</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>374</string>
+		<key>Name</key>
+		<string>亚美尼亚</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>375</string>
+		<key>Name</key>
+		<string>白俄罗斯</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>376</string>
+		<key>Name</key>
+		<string>安道尔</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>377</string>
+		<key>Name</key>
+		<string>摩纳哥</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>378</string>
+		<key>Name</key>
+		<string>圣马力诺</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>379</string>
+		<key>Name</key>
+		<string>梵蒂冈</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>380</string>
+		<key>Name</key>
+		<string>乌克兰</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>381</string>
+		<key>Name</key>
+		<string>塞尔维亚</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>382</string>
+		<key>Name</key>
+		<string>黑山</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>384</string>
+		<key>Name</key>
+		<string>科索沃</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>385</string>
+		<key>Name</key>
+		<string>克罗地亚</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>386</string>
+		<key>Name</key>
+		<string>斯洛文尼亚</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>387</string>
+		<key>Name</key>
+		<string>波黑</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>389</string>
+		<key>Name</key>
+		<string>马其顿</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>420</string>
+		<key>Name</key>
+		<string>捷克共和国</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>421</string>
+		<key>Name</key>
+		<string>斯洛伐克</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>423</string>
+		<key>Name</key>
+		<string>列支敦士登</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>500</string>
+		<key>Name</key>
+		<string>福克兰群岛</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>501</string>
+		<key>Name</key>
+		<string>伯利兹</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>502</string>
+		<key>Name</key>
+		<string>危地马拉</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>503</string>
+		<key>Name</key>
+		<string>萨尔瓦多</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>504</string>
+		<key>Name</key>
+		<string>洪都拉斯</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>505</string>
+		<key>Name</key>
+		<string>尼加拉瓜</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>506</string>
+		<key>Name</key>
+		<string>哥斯达黎加</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>507</string>
+		<key>Name</key>
+		<string>巴拿马</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>508</string>
+		<key>Name</key>
+		<string>圣皮埃尔和密克隆群岛</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>509</string>
+		<key>Name</key>
+		<string>海地</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>590</string>
+		<key>Name</key>
+		<string>瓜德罗普</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>591</string>
+		<key>Name</key>
+		<string>玻利维亚</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>592</string>
+		<key>Name</key>
+		<string>圭亚那</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>593</string>
+		<key>Name</key>
+		<string>厄瓜多尔</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>594</string>
+		<key>Name</key>
+		<string>法属圭亚那</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>595</string>
+		<key>Name</key>
+		<string>巴拉圭</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>596</string>
+		<key>Name</key>
+		<string>马提尼克</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>597</string>
+		<key>Name</key>
+		<string>苏里南</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>598</string>
+		<key>Name</key>
+		<string>乌拉圭</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>599</string>
+		<key>Name</key>
+		<string>荷兰加勒比区</string>
+        </dict>
+<dict>
+
+<key>Number</key>
+		<string>599</string>
+		<key>Name</key>
+		<string>荷属圣马丁</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>670</string>
+		<key>Name</key>
+		<string>东帝汶</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>671</string>
+		<key>Name</key>
+		<string>关岛</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>672</string>
+		<key>Name</key>
+		<string>南极洲</string>
+	</dict>
+	<dict>
+	
+<key>Number</key>
+		<string>673</string>
+		<key>Name</key>
+		<string>文莱</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>674</string>
+		<key>Name</key>
+		<string>瑙鲁</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>675</string>
+		<key>Name</key>
+		<string>巴布亚新几内亚</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>676</string>
+		<key>Name</key>
+		<string>汤加</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>677</string>
+		<key>Name</key>
+		<string>所罗门群岛</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>678</string>
+		<key>Name</key>
+		<string>瓦努阿图</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>679</string>
+		<key>Name</key>
+		<string>斐济</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>680</string>
+		<key>Name</key>
+		<string>帕劳</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>681</string>
+		<key>Name</key>
+		<string>瓦利斯和富图纳群岛</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>682</string>
+		<key>Name</key>
+		<string>库克群岛</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>683</string>
+		<key>Name</key>
+		<string>纽埃</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>684</string>
+		<key>Name</key>
+		<string>美属萨摩亚</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>685</string>
+		<key>Name</key>
+		<string>萨摩亚</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>686</string>
+		<key>Name</key>
+		<string>基里巴斯</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>687</string>
+		<key>Name</key>
+		<string>新喀里多尼亚</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>688</string>
+		<key>Name</key>
+		<string>图瓦卢</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>688</string>
+		<key>Name</key>
+		<string>埃利斯群岛</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>689</string>
+		<key>Name</key>
+		<string>法属波利尼西亚</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>690</string>
+		<key>Name</key>
+		<string>托克劳群岛</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>691</string>
+		<key>Name</key>
+		<string>密克罗尼西亚联邦</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>692</string>
+		<key>Name</key>
+		<string>马绍尔群岛</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>850</string>
+		<key>Name</key>
+		<string>朝鲜</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>852</string>
+		<key>Name</key>
+		<string>香港</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>853</string>
+		<key>Name</key>
+		<string>澳门</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>855</string>
+		<key>Name</key>
+		<string>柬埔寨</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>856</string>
+		<key>Name</key>
+		<string>老挝</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>880</string>
+		<key>Name</key>
+		<string>孟加拉国</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>881</string>
+		<key>Name</key>
+		<string>移动卫星系统</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>882</string>
+		<key>Name</key>
+		<string>国际网络</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>886</string>
+		<key>Name</key>
+		<string>台湾</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>960</string>
+		<key>Name</key>
+		<string>马尔代夫</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>961</string>
+		<key>Name</key>
+		<string>黎巴嫩</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>962</string>
+		<key>Name</key>
+		<string>约旦</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>963</string>
+		<key>Name</key>
+		<string>叙利亚</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>964</string>
+		<key>Name</key>
+		<string>伊拉克</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>965</string>
+		<key>Name</key>
+		<string>科威特</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>966</string>
+		<key>Name</key>
+		<string>沙特阿拉伯</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>967</string>
+		<key>Name</key>
+		<string>也门</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>968</string>
+		<key>Name</key>
+		<string>阿曼</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>970</string>
+		<key>Name</key>
+		<string>巴勒斯坦</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>971</string>
+		<key>Name</key>
+		<string>阿拉伯联合酋长国</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>972</string>
+		<key>Name</key>
+		<string>以色列</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>973</string>
+		<key>Name</key>
+		<string>巴林</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>974</string>
+		<key>Name</key>
+		<string>卡塔尔</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>975</string>
+		<key>Name</key>
+		<string>不丹</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>976</string>
+		<key>Name</key>
+		<string>蒙古</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>977</string>
+		<key>Name</key>
+		<string>尼泊尔</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>979</string>
+		<key>Name</key>
+		<string>国际费率服务</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>992</string>
+		<key>Name</key>
+		<string>塔吉克斯坦</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>993</string>
+		<key>Name</key>
+		<string>土库曼斯坦</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>994</string>
+		<key>Name</key>
+		<string>阿塞拜疆</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>995</string>
+		<key>Name</key>
+		<string>格鲁吉亚</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>996</string>
+		<key>Name</key>
+		<string>吉尔吉斯斯坦</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>998</string>
+		<key>Name</key>
+		<string>乌兹别克斯坦</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>1242</string>
+		<key>Name</key>
+		<string>巴拿马</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>1246</string>
+		<key>Name</key>
+		<string>巴巴多斯</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>1264</string>
+		<key>Name</key>
+		<string>安圭拉岛</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>1268</string>
+		<key>Name</key>
+		<string>安提瓜和巴布达</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>1340</string>
+		<key>Name</key>
+		<string>美属维京群岛</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>1345</string>
+		<key>Name</key>
+		<string>开曼群岛</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>1441</string>
+		<key>Name</key>
+		<string>百慕大</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>1473</string>
+		<key>Name</key>
+		<string>格林纳达</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>1649</string>
+		<key>Name</key>
+		<string>特克斯和凯科斯群岛</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>1664</string>
+		<key>Name</key>
+		<string>蒙特塞拉特</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>1670</string>
+		<key>Name</key>
+		<string>北马里亚纳群岛</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>1671</string>
+		<key>Name</key>
+		<string>关岛</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>1758</string>
+		<key>Name</key>
+		<string>圣卢西亚</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>1767</string>
+		<key>Name</key>
+		<string>多米尼克</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>1784</string>
+		<key>Name</key>
+		<string>圣文森特和格林纳丁斯</string>
+	</dict>
+	<dict>
+
+<key>Number</key>
+		<string>1787</string>
+		<key>Name</key>
+		<string>波多黎各</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>1809</string>
+		<key>Name</key>
+		<string>多米尼加共和国</string>
+        </dict>
+<dict>
+	
+<key>Number</key>
+		<string>1868</string>
+		<key>Name</key>
+		<string>特立尼达和多巴哥</string>
+	</dict>
+<dict>
+		
+<key>Number</key>
+		<string>1869</string>
+		<key>Name</key>
+		<string>圣基茨和尼维斯</string>
+	</dict>
+	<dict>
+		
+<key>Number</key>
+		<string>1876</string>
+		<key>Name</key>
+		<string>牙买加</string>
+	</dict>
+	<dict>
+
+</dict></array>
+</plist>
+
