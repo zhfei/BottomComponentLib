@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZHFLogerManager.h"
 
 @interface ViewController ()
 
@@ -23,6 +24,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    NSString *str = [NSString stringWithFormat:@"touche: %@",[touches anyObject]];
+    [ZHFLogerManager log:str level:ZHF_Level_Warn tag:ZHF_Tag_default];
 }
 
 
