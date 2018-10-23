@@ -38,6 +38,7 @@
 		918B57682170859200E9B71D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918B57662170859200E9B71D /* LaunchScreen.storyboard */; };
 		918B576B2170859200E9B71D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B576A2170859200E9B71D /* main.m */; };
 		918B57752170859200E9B71D /* BottomComponentLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B57742170859200E9B71D /* BottomComponentLibTests.m */; };
+		919E73B5217EBAD0003D5F37 /* UITextView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E73B4217EBAD0003D5F37 /* UITextView+Helper.m */; };
 		C9DEF5A9A8F712C3D2844D35 /* libPods-BottomComponentLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D88CD5292384518C4FC820CA /* libPods-BottomComponentLib.a */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +115,8 @@
 		918B57702170859200E9B71D /* BottomComponentLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottomComponentLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		918B57742170859200E9B71D /* BottomComponentLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomComponentLibTests.m; sourceTree = "<group>"; };
 		918B57762170859200E9B71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919E73B3217EBACF003D5F37 /* UITextView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Helper.h"; sourceTree = "<group>"; };
+		919E73B4217EBAD0003D5F37 /* UITextView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Helper.m"; sourceTree = "<group>"; };
 		D88CD5292384518C4FC820CA /* libPods-BottomComponentLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BottomComponentLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6048094E0DAB7E773A2A73C /* Pods-BottomComponentLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomComponentLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-BottomComponentLib/Pods-BottomComponentLib.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,6 +175,8 @@
 		910A7C78217E1E8400689DCF /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				919E73B3217EBACF003D5F37 /* UITextView+Helper.h */,
+				919E73B4217EBAD0003D5F37 /* UITextView+Helper.m */,
 				910A7C79217E1E8400689DCF /* NSDateFormatter+ShortCut.m */,
 				910A7C7A217E1E8400689DCF /* UIButton+ZHFShortCut.h */,
 				910A7C7B217E1E8400689DCF /* NSArray+ShortCut.h */,
@@ -453,6 +458,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				910A7CB6217E1E8400689DCF /* NSDate+ShortCut.m in Sources */,
+				919E73B5217EBAD0003D5F37 /* UITextView+Helper.m in Sources */,
 				910A7CB3217E1E8400689DCF /* NSArray+ShortCut.m in Sources */,
 				910A7CC3217E1E8400689DCF /* Utility.m in Sources */,
 				910A7CB8217E1E8400689DCF /* UILabel+ShortCut.m in Sources */,
