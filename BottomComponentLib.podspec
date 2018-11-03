@@ -14,28 +14,29 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios, '8.0'
   spec.requires_arc = true
-  spec.source_files = 'SRC/**/*.{h,m,plist}'
-  spec.public_header_files = 'SRC/**/*.{h}'
+  #spec.source_files = 'SRC/**/*.{h,m,plist}'
+  #spec.public_header_files = 'SRC/**/*.{h}'
 
-  spec.resource_bundles = {
-     'BottomComponentLib' => [
-       'SRC/**/*.{storyboard,xcassets,xib,plist}'
-    ]
-  }
+  #spec.resource_bundles = {
+  #   'BottomComponentLib' => [
+  #     'SRC/**/*.{storyboard,xcassets,xib,plist}'
+  #  ]
+  #}
+  
   spec.dependency 'AFNetworking'
   spec.dependency 'MBProgressHUD'
   spec.dependency 'YYModel'
 
   spec.subspec "Object-C" do |oc|
-  	oc.source_files = 'SRC/Object-C/*.{h,m}'
+  	oc.source_files = 'SRC/Object-C/**/*.{h,m}'
   end
 
   spec.subspec "Swift" do |sf|
-  	sf.source_files = 'SRC/Swift/*.{strings}'
+  	sf.source_files = 'SRC/Swift/**/*.{strings}'
   end
 
   spec.subspec "Resouce" do |rs|
-  	rs.source_files = 'SRC/Resouce/*.{storyboard,xcassets,xib,plist,strings}'
+    rs.source_files = 'SRC/Resouce/**/*.{storyboard,xcassets,xib,plist,strings}'
   end
 
 
