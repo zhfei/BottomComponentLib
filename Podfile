@@ -7,6 +7,8 @@ target "BottomComponentLib" do
    pod 'YYModel'
    pod 'MBProgressHUD'
    pod 'AFNetworking'
+   pod 'Masonry'
+   
 
 end
 

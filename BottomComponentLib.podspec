@@ -26,6 +26,8 @@ Pod::Spec.new do |spec|
   spec.dependency 'AFNetworking'
   spec.dependency 'MBProgressHUD'
   spec.dependency 'YYModel'
+  spec.dependency 'Masonry'
+  
 
   spec.subspec "Object-C" do |oc|
   	oc.source_files = 'SRC/Object-C/**/*.{h,m}'
