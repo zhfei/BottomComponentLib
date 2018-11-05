@@ -40,6 +40,9 @@
 		918B576B2170859200E9B71D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B576A2170859200E9B71D /* main.m */; };
 		918B57752170859200E9B71D /* BottomComponentLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B57742170859200E9B71D /* BottomComponentLibTests.m */; };
 		919E73B5217EBAD0003D5F37 /* UITextView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E73B4217EBAD0003D5F37 /* UITextView+Helper.m */; };
+		919F79D721904BD100A82C0D /* ZHFPersistenceLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79D621904BD100A82C0D /* ZHFPersistenceLibrary.m */; };
+		919F79DB21904E2E00A82C0D /* ZHFPersistenceSQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79DA21904E2E00A82C0D /* ZHFPersistenceSQL.m */; };
+		919F79DE21904FEF00A82C0D /* ZHFPersistenceRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79DD21904FEF00A82C0D /* ZHFPersistenceRealm.m */; };
 		C9DEF5A9A8F712C3D2844D35 /* libPods-BottomComponentLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D88CD5292384518C4FC820CA /* libPods-BottomComponentLib.a */; };
 /* End PBXBuildFile section */
 
@@ -120,6 +123,13 @@
 		918B57762170859200E9B71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		919E73B3217EBACF003D5F37 /* UITextView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Helper.h"; sourceTree = "<group>"; };
 		919E73B4217EBAD0003D5F37 /* UITextView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Helper.m"; sourceTree = "<group>"; };
+		919F79D521904BD100A82C0D /* ZHFPersistenceLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFPersistenceLibrary.h; sourceTree = "<group>"; };
+		919F79D621904BD100A82C0D /* ZHFPersistenceLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHFPersistenceLibrary.m; sourceTree = "<group>"; };
+		919F79D821904CE400A82C0D /* ZHFPersistenceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFPersistenceProtocol.h; sourceTree = "<group>"; };
+		919F79D921904E2E00A82C0D /* ZHFPersistenceSQL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFPersistenceSQL.h; sourceTree = "<group>"; };
+		919F79DA21904E2E00A82C0D /* ZHFPersistenceSQL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFPersistenceSQL.m; sourceTree = "<group>"; };
+		919F79DC21904FEF00A82C0D /* ZHFPersistenceRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFPersistenceRealm.h; sourceTree = "<group>"; };
+		919F79DD21904FEF00A82C0D /* ZHFPersistenceRealm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFPersistenceRealm.m; sourceTree = "<group>"; };
 		D88CD5292384518C4FC820CA /* libPods-BottomComponentLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BottomComponentLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6048094E0DAB7E773A2A73C /* Pods-BottomComponentLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomComponentLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-BottomComponentLib/Pods-BottomComponentLib.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -231,6 +241,7 @@
 		910A7C9A217E1E8400689DCF /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				919F79D421904BD100A82C0D /* PersistenceLibrary */,
 				910A7C9B217E1E8400689DCF /* ZHFTopWindow.m */,
 				910A7C9C217E1E8400689DCF /* ZHFProgressHUD.h */,
 				910A7C9D217E1E8400689DCF /* ZHFQRCodeView.h */,
@@ -317,6 +328,20 @@
 				91B329292176E6EC00DD0042 /* Resouce */,
 			);
 			path = SRC;
+			sourceTree = "<group>";
+		};
+		919F79D421904BD100A82C0D /* PersistenceLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				919F79D521904BD100A82C0D /* ZHFPersistenceLibrary.h */,
+				919F79D621904BD100A82C0D /* ZHFPersistenceLibrary.m */,
+				919F79D821904CE400A82C0D /* ZHFPersistenceProtocol.h */,
+				919F79D921904E2E00A82C0D /* ZHFPersistenceSQL.h */,
+				919F79DA21904E2E00A82C0D /* ZHFPersistenceSQL.m */,
+				919F79DC21904FEF00A82C0D /* ZHFPersistenceRealm.h */,
+				919F79DD21904FEF00A82C0D /* ZHFPersistenceRealm.m */,
+			);
+			path = PersistenceLibrary;
 			sourceTree = "<group>";
 		};
 		91B329292176E6EC00DD0042 /* Resouce */ = {
@@ -480,8 +505,11 @@
 				910A7CBE217E1E8400689DCF /* ZHFQRCodeView.m in Sources */,
 				910A7CB4217E1E8400689DCF /* UIButton+ZHFShortCut.m in Sources */,
 				910A7CAF217E1E8400689DCF /* NSString+ShortCut.m in Sources */,
+				919F79DE21904FEF00A82C0D /* ZHFPersistenceRealm.m in Sources */,
 				910A7CB1217E1E8400689DCF /* UIView+Draw.m in Sources */,
 				910A7CBF217E1E8400689DCF /* ZHFProgressHUD.m in Sources */,
+				919F79D721904BD100A82C0D /* ZHFPersistenceLibrary.m in Sources */,
+				919F79DB21904E2E00A82C0D /* ZHFPersistenceSQL.m in Sources */,
 				918B575D2170858F00E9B71D /* AppDelegate.m in Sources */,
 				910A7CB9217E1E8400689DCF /* GlobalConfig.m in Sources */,
 				910A7CB2217E1E8400689DCF /* UIImage+Custom.m in Sources */,
