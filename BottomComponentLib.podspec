@@ -27,6 +27,8 @@ Pod::Spec.new do |spec|
   spec.dependency 'MBProgressHUD'
   spec.dependency 'YYModel'
   spec.dependency 'Masonry'
+  spec.dependency 'FMDB'
+  spec.dependency 'Realm'
   
 
   spec.subspec "Object-C" do |oc|
