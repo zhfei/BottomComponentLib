@@ -13,6 +13,9 @@
     [self addObject:obj];
 }
 - (id)pop {
+    if (self.count == 0) {
+        return nil;
+    }
     id obj = [self lastObject];
     [self removeLastObject];
     return obj;
