@@ -43,6 +43,7 @@
 		919F79D721904BD100A82C0D /* ZHFPersistenceLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79D621904BD100A82C0D /* ZHFPersistenceLibrary.m */; };
 		919F79DB21904E2E00A82C0D /* ZHFPersistenceSQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79DA21904E2E00A82C0D /* ZHFPersistenceSQL.m */; };
 		919F79DE21904FEF00A82C0D /* ZHFPersistenceRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79DD21904FEF00A82C0D /* ZHFPersistenceRealm.m */; };
+		91FE53CB21C53C70009B4B0A /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FE53CA21C53C70009B4B0A /* NSMutableArray+Stack.m */; };
 		C9DEF5A9A8F712C3D2844D35 /* libPods-BottomComponentLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D88CD5292384518C4FC820CA /* libPods-BottomComponentLib.a */; };
 /* End PBXBuildFile section */
 
@@ -130,6 +131,8 @@
 		919F79DA21904E2E00A82C0D /* ZHFPersistenceSQL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFPersistenceSQL.m; sourceTree = "<group>"; };
 		919F79DC21904FEF00A82C0D /* ZHFPersistenceRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFPersistenceRealm.h; sourceTree = "<group>"; };
 		919F79DD21904FEF00A82C0D /* ZHFPersistenceRealm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFPersistenceRealm.m; sourceTree = "<group>"; };
+		91FE53C921C53C70009B4B0A /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
+		91FE53CA21C53C70009B4B0A /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
 		D88CD5292384518C4FC820CA /* libPods-BottomComponentLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BottomComponentLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6048094E0DAB7E773A2A73C /* Pods-BottomComponentLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomComponentLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-BottomComponentLib/Pods-BottomComponentLib.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -214,6 +217,8 @@
 				910A7C8E217E1E8400689DCF /* UIView+Frame.h */,
 				910A7C8F217E1E8400689DCF /* UIView+Draw.h */,
 				910A7C90217E1E8400689DCF /* UIImage+Custom.h */,
+				91FE53C921C53C70009B4B0A /* NSMutableArray+Stack.h */,
+				91FE53CA21C53C70009B4B0A /* NSMutableArray+Stack.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -490,6 +495,7 @@
 				910A7CB6217E1E8400689DCF /* NSDate+ShortCut.m in Sources */,
 				919E73B5217EBAD0003D5F37 /* UITextView+Helper.m in Sources */,
 				910A7CB3217E1E8400689DCF /* NSArray+ShortCut.m in Sources */,
+				91FE53CB21C53C70009B4B0A /* NSMutableArray+Stack.m in Sources */,
 				917A3BC3217F78A7009094F3 /* ZHFLogerManager.m in Sources */,
 				910A7CC3217E1E8400689DCF /* Utility.m in Sources */,
 				910A7CB8217E1E8400689DCF /* UILabel+ShortCut.m in Sources */,
