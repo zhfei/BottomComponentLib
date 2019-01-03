@@ -22,7 +22,7 @@
 }
 
 + (UIImage *)screenshotInView:(UIView *)view {
-    UIGraphicsBeginImageContextWithOptions(view.bounds.size, NO, 0.0);
+    UIGraphicsBeginImageContextWithOptions(UIScreen.mainScreen.bounds.size, NO, [UIScreen mainScreen].scale);
     CGContextRef context = UIGraphicsGetCurrentContext();
     [view.layer renderInContext:context];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();

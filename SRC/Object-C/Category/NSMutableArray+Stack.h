@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NSMutableArray (Stack)
 - (void)push:(id)obj;
 - (id)pop;
+- (id)dropBottom;
 @end
 
 NS_ASSUME_NONNULL_END

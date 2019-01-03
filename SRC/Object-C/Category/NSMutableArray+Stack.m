@@ -20,4 +20,7 @@
     [self removeLastObject];
     return obj;
 }
+- (id)dropBottom {
+    return [self pop];
+}
 @end
