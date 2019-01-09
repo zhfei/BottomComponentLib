@@ -19,5 +19,6 @@
 
 + (void)saveObjet:(NSDictionary *)dict toPath:(NSString *)path;
 + (id)readObjetFromPath:(NSString *)path;
++ (NSArray *)readObjetsFromPath:(NSString *)path;
 + (BOOL)createDir:(NSString *)dirPath;
 @end

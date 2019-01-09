@@ -28,11 +28,23 @@
 }
 
 + (void)saveObjet:(NSDictionary *)dict toPath:(NSString *)path {
-    [dict writeToFile:path atomically:YES];
+    if ([self createDir:path]) {
+        [dict writeToFile:path atomically:YES];
+    }
 }
 + (id)readObjetFromPath:(NSString *)path {
     if ([[NSFileManager defaultManager] fileExistsAtPath:path]) {
         return [NSDictionary dictionaryWithContentsOfFile:path];
+    }
+    return nil;
+}
+
++ (NSArray *)readObjetsFromPath:(NSString *)path {
+    if ([[NSFileManager defaultManager] fileExistsAtPath:path]) {
+        NSError *error;
+        NSArray *contents = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:path error:&error];
+        NSLog(@"%@",contents);
+        return contents;
     }
     return nil;
 }
