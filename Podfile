@@ -10,6 +10,7 @@ target "BottomComponentLib" do
    pod 'Masonry'
    pod 'FMDB'
    pod 'Realm'
+   pod 'SDWebImage'
 
 end
 
