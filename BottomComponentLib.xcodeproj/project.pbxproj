@@ -176,13 +176,13 @@
 		910A7C77217E1E8400689DCF /* Object-C */ = {
 			isa = PBXGroup;
 			children = (
+				910A7C99217E1E8400689DCF /* Macro.h */,
+				910A7CA7217E1E8400689DCF /* ZHFFoundation.h */,
 				910A7C78217E1E8400689DCF /* Category */,
 				910A7C91217E1E8400689DCF /* Config */,
 				910A7C94217E1E8400689DCF /* NetWorking */,
-				910A7C99217E1E8400689DCF /* Macro.h */,
 				910A7C9A217E1E8400689DCF /* Foundation */,
 				910A7CA4217E1E8400689DCF /* FileManager */,
-				910A7CA7217E1E8400689DCF /* ZHFFoundation.h */,
 				910A7CA9217E1E8400689DCF /* Helper */,
 			);
 			path = "Object-C";
@@ -236,9 +236,9 @@
 			isa = PBXGroup;
 			children = (
 				910A7C95217E1E8400689DCF /* ZHFNetworking.h */,
+				910A7C98217E1E8400689DCF /* ZHFNetworking.m */,
 				910A7C96217E1E8400689DCF /* ZHFRequestParameter.h */,
 				910A7C97217E1E8400689DCF /* ZHFRequestParameter.m */,
-				910A7C98217E1E8400689DCF /* ZHFNetworking.m */,
 			);
 			path = NetWorking;
 			sourceTree = "<group>";
@@ -247,14 +247,14 @@
 			isa = PBXGroup;
 			children = (
 				919F79D421904BD100A82C0D /* PersistenceLibrary */,
-				910A7C9B217E1E8400689DCF /* ZHFTopWindow.m */,
-				910A7C9C217E1E8400689DCF /* ZHFProgressHUD.h */,
-				910A7C9D217E1E8400689DCF /* ZHFQRCodeView.h */,
-				910A7C9E217E1E8400689DCF /* ZHFAlertControlle.m */,
 				910A7C9F217E1E8400689DCF /* ZHFTopWindow.h */,
+				910A7C9B217E1E8400689DCF /* ZHFTopWindow.m */,
+				910A7C9D217E1E8400689DCF /* ZHFQRCodeView.h */,
 				910A7CA0217E1E8400689DCF /* ZHFQRCodeView.m */,
+				910A7C9C217E1E8400689DCF /* ZHFProgressHUD.h */,
 				910A7CA1217E1E8400689DCF /* ZHFProgressHUD.m */,
 				910A7CA2217E1E8400689DCF /* ZHFAlertControlle.h */,
+				910A7C9E217E1E8400689DCF /* ZHFAlertControlle.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -273,8 +273,8 @@
 		910A7CA9217E1E8400689DCF /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				910A7CAA217E1E8400689DCF /* Utility.m */,
 				910A7CAB217E1E8400689DCF /* Utility.h */,
+				910A7CAA217E1E8400689DCF /* Utility.m */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -378,6 +378,7 @@
 				918B57542170858F00E9B71D /* Sources */,
 				918B57552170858F00E9B71D /* Frameworks */,
 				918B57562170858F00E9B71D /* Resources */,
+				AED31BE4D11BB03F733FAD14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -483,6 +484,38 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AED31BE4D11BB03F733FAD14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BottomComponentLib/Pods-BottomComponentLib-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/PinYin4Objc/PinYin4Objc/Resources/unicode_to_hanyu_pinyin.txt",
+				"${PODS_ROOT}/SIAlertView/SIAlertView/SIAlertView.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unicode_to_hanyu_pinyin.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SIAlertView.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKPromptResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BottomComponentLib/Pods-BottomComponentLib-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

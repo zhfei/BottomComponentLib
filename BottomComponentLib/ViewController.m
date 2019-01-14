@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ZHFLogerManager.h"
+#include <MBProgressHUD.h>
 
 @interface ViewController ()
 
