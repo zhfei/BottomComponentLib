@@ -29,4 +29,13 @@
 + (void)downloadTaskWithWithParameters:(ZHFRequestParameter *)parameter
                                  progress:(nullable void (^)(NSProgress *downloadProgress))downloadProgressBlock
                         completionHandler:(nullable void (^)(NSURLResponse *response, NSURL *_Nullable filePath, NSError *_Nullable error))completionHandler;
+
+/**
+ 取消队列
+ */
++(void)cancelDataTask;
+/**
+ 取消当前任务
+ */
++(void)cancelCurrentDataTask;
 @end
