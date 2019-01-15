@@ -66,6 +66,14 @@
  *  @param message 信息
  */
 + (void)popToastMessage:(NSString *)message;
+
+/**
+ *   Toast提示
+ *
+ *  @param message 信息
+ */
++ (void)popMessage:(NSString *)message;
+
 /*!
  *
  *  @brief Description 持续展示提示信息(eg.下载百分比提示)

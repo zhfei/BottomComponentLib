@@ -7,7 +7,8 @@
 //
 
 #import "GlobalConfig.h"
-#import <YYModel/YYModel.h>
+//#import <YYModel/YYModel.h>
+#import <YYKit/NSObject+YYModel.h>
 #import "FileManager.h"
 
 @implementation GlobalConfig
@@ -35,7 +36,8 @@ SingletonM(GlobalConfig)
 }
 
 - (void)saveConfig {
-    id dict = [self yy_modelToJSONObject];
+    id dict = [self modelToJSONObject];
+    
     [FileManager saveObjet:dict toPath:[kConfigPath stringByAppendingPathComponent:@"config.plist"]];
 }
 - (NSDictionary *)readConfig {

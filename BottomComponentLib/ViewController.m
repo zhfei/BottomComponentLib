@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "ZHFLogerManager.h"
-#include <MBProgressHUD.h>
+#include "ZHFProgressHUD.h"
 
 @interface ViewController ()
 
@@ -31,6 +31,11 @@
     
     NSString *str = [NSString stringWithFormat:@"touche: %@",[touches anyObject]];
     [ZHFLogerManager log:str level:ZHF_Level_Warn tag:ZHF_Tag_default];
+    
+//    [ZHFProgressHUD popupSuccessMessage:@"成功"];
+//    [ZHFProgressHUD popToastMessage:@"成功"];
+    [ZHFProgressHUD popMessage:@"请先开启手势密码\n请先开启手势密码"];
+    
 }
 
 

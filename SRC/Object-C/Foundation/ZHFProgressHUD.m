@@ -11,8 +11,8 @@
 
 static MBProgressHUD *ZHFLastHUD;
 static NSInteger animationDuration = 1.f;
-static NSInteger HUD_width = 170.f;
-static NSInteger HUD_height = 125.f;
+static NSInteger HUD_width = 100.f;
+static NSInteger HUD_height = 80.f;
 
 @implementation ZHFProgressHUD
 + (void)popupErrorMessage:(NSString *)errorMessage {
@@ -77,23 +77,28 @@ static NSInteger HUD_height = 125.f;
 
 + (void)popToastMessage:(NSString *)message {
     dispatch_async(dispatch_get_main_queue(), ^{
-        if (ZHFLastHUD) {
-            [ZHFLastHUD hideAnimated:YES];
-        }
+        MBProgressHUD * HUD = [self popWithMessage:message customView:nil];
+        [HUD hideAnimated:YES afterDelay:animationDuration];
+    });
+}
+
++ (void)popMessage:(NSString *)message {
+    if (ZHFLastHUD) {
+        [ZHFLastHUD hideAnimated:NO];
+    }
+    id<UIApplicationDelegate>app = [UIApplication sharedApplication].delegate;
+    MBProgressHUD * HUD = [MBProgressHUD showHUDAddedTo:[app window] animated:YES];
+    HUD.mode = MBProgressHUDModeText;
+    HUD.completionBlock = NULL;
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated"
-        id<UIApplicationDelegate>app = [UIApplication sharedApplication].delegate;
-        MBProgressHUD * HUD = [MBProgressHUD showHUDAddedTo:[app window] animated:YES];
-        HUD.minSize = CGSizeMake(HUD_width, HUD_height);
-        HUD.bezelView.color   = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.7f];
-        HUD.label.textColor= [UIColor whiteColor];
-        HUD.activityIndicatorColor = [UIColor whiteColor];
-        HUD.label.text = message;
-        HUD.opacity = 0.75;
-        [HUD hideAnimated:YES afterDelay:animationDuration];
+    NSArray *messages = [message componentsSeparatedByString:@"\n"];
+    HUD.label.text = messages[0];
+    if (messages.count > 1) {
+        HUD.detailsLabel.text = messages[1];
+    }
 #pragma clang diagnostic pop
-        
-    });
+    [HUD hideAnimated:YES afterDelay:animationDuration];
 }
 
 + (void)message:(NSString *)message{

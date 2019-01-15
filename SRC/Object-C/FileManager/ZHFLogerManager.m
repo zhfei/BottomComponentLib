@@ -7,7 +7,9 @@
 //
 
 #import "ZHFLogerManager.h"
+#import <YYKit/UIApplication+YYAdd.h>
 
+static NSString *KAppName;
 
 @implementation ZHFLogerManager
 {
@@ -24,6 +26,7 @@ SingletonM(ZHFLogerManager)
     self = [super init];
     if (self) {
         self.ZHF_LOG_LEVEL_LIMIT = ZHF_Level_Warn;
+        KAppName = [UIApplication sharedApplication].appBundleName;
         
         //创建日志目录，及日志文件
         NSString *tmpDirectory = NSTemporaryDirectory();
@@ -58,7 +61,7 @@ SingletonM(ZHFLogerManager)
         }
         
         _logPath = [_logPath stringByAppendingPathComponent:filename];
-        _writeQueue = dispatch_queue_create("ZHFLogger.write.queue", DISPATCH_QUEUE_SERIAL);
+        _writeQueue = dispatch_queue_create("Logger.write.queue", DISPATCH_QUEUE_SERIAL);
         
         if(![[NSFileManager defaultManager] fileExistsAtPath:_logPath]) {
             //            NSLog(@"createFileAtPath _logPath %@ ", _logPath);
@@ -86,18 +89,18 @@ SingletonM(ZHFLogerManager)
         [timeStampFormat setTimeZone:[NSTimeZone systemTimeZone]];
     }
     NSString* timestamp = [timeStampFormat stringFromDate:[NSDate date]];
-    NSString *logText = [NSString stringWithFormat:@"%@ [UPLiveSDK-%@][%ld-%ld] %@", timestamp,  APP_Version, (long)level, (long)tag,message];
+    NSString *logText = [NSString stringWithFormat:@"%@ [%@-%@][%ld-%ld] %@", timestamp,KAppName,  APP_Version, (long)level, (long)tag,message];
     
     
     
-    ZHFLogger_level up_level = [ZHFLogerManager sharedZHFLogerManager].ZHF_LOG_LEVEL_LIMIT;
+    ZHFLogger_level zhf_level = [ZHFLogerManager sharedZHFLogerManager].ZHF_LOG_LEVEL_LIMIT;
     
-    //UP_Tag_event 所有类型log 全部保存
+    //ZHF_Tag_event 所有类型log 全部保存
     
     [[ZHFLogerManager sharedZHFLogerManager] saveLogText:[NSString stringWithFormat:@"%@\n", logText] tag:tag];
     
-    //UP_Tag_event 类型全部打印 || 等级大于设置的打印
-    if (tag == ZHF_Tag_event || level >= up_level) {
+    //ZHF_Tag_event 类型全部打印 || 等级大于设置的打印
+    if (tag == ZHF_Tag_event || level >= zhf_level) {
         NSLog(@"%@",logText);
     }
 }
