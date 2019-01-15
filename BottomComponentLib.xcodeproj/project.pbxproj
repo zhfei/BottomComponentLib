@@ -39,6 +39,9 @@
 		918B57682170859200E9B71D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918B57662170859200E9B71D /* LaunchScreen.storyboard */; };
 		918B576B2170859200E9B71D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B576A2170859200E9B71D /* main.m */; };
 		918B57752170859200E9B71D /* BottomComponentLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B57742170859200E9B71D /* BottomComponentLibTests.m */; };
+		9192113121EDBD6900CD9C1B /* ZHFRealmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192113021EDBD6900CD9C1B /* ZHFRealmManager.m */; };
+		9192113421EDC18D00CD9C1B /* ZHFPruduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192113321EDC18D00CD9C1B /* ZHFPruduct.m */; };
+		9192113721EDC2D300CD9C1B /* ZHFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192113621EDC2D300CD9C1B /* ZHFPerson.m */; };
 		919E73B5217EBAD0003D5F37 /* UITextView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E73B4217EBAD0003D5F37 /* UITextView+Helper.m */; };
 		919F79D721904BD100A82C0D /* ZHFPersistenceLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79D621904BD100A82C0D /* ZHFPersistenceLibrary.m */; };
 		919F79DB21904E2E00A82C0D /* ZHFPersistenceSQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79DA21904E2E00A82C0D /* ZHFPersistenceSQL.m */; };
@@ -122,6 +125,12 @@
 		918B57702170859200E9B71D /* BottomComponentLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottomComponentLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		918B57742170859200E9B71D /* BottomComponentLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomComponentLibTests.m; sourceTree = "<group>"; };
 		918B57762170859200E9B71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9192112F21EDBD6900CD9C1B /* ZHFRealmManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFRealmManager.h; sourceTree = "<group>"; };
+		9192113021EDBD6900CD9C1B /* ZHFRealmManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFRealmManager.m; sourceTree = "<group>"; };
+		9192113221EDC18D00CD9C1B /* ZHFPruduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFPruduct.h; sourceTree = "<group>"; };
+		9192113321EDC18D00CD9C1B /* ZHFPruduct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFPruduct.m; sourceTree = "<group>"; };
+		9192113521EDC2D300CD9C1B /* ZHFPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFPerson.h; sourceTree = "<group>"; };
+		9192113621EDC2D300CD9C1B /* ZHFPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFPerson.m; sourceTree = "<group>"; };
 		919E73B3217EBACF003D5F37 /* UITextView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Helper.h"; sourceTree = "<group>"; };
 		919E73B4217EBAD0003D5F37 /* UITextView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Helper.m"; sourceTree = "<group>"; };
 		919F79D521904BD100A82C0D /* ZHFPersistenceLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFPersistenceLibrary.h; sourceTree = "<group>"; };
@@ -176,6 +185,7 @@
 		910A7C77217E1E8400689DCF /* Object-C */ = {
 			isa = PBXGroup;
 			children = (
+				9192112E21EDBD4200CD9C1B /* RealmManager */,
 				910A7C99217E1E8400689DCF /* Macro.h */,
 				910A7CA7217E1E8400689DCF /* ZHFFoundation.h */,
 				910A7C78217E1E8400689DCF /* Category */,
@@ -333,6 +343,19 @@
 				91B329292176E6EC00DD0042 /* Resouce */,
 			);
 			path = SRC;
+			sourceTree = "<group>";
+		};
+		9192112E21EDBD4200CD9C1B /* RealmManager */ = {
+			isa = PBXGroup;
+			children = (
+				9192112F21EDBD6900CD9C1B /* ZHFRealmManager.h */,
+				9192113021EDBD6900CD9C1B /* ZHFRealmManager.m */,
+				9192113221EDC18D00CD9C1B /* ZHFPruduct.h */,
+				9192113321EDC18D00CD9C1B /* ZHFPruduct.m */,
+				9192113521EDC2D300CD9C1B /* ZHFPerson.h */,
+				9192113621EDC2D300CD9C1B /* ZHFPerson.m */,
+			);
+			path = RealmManager;
 			sourceTree = "<group>";
 		};
 		919F79D421904BD100A82C0D /* PersistenceLibrary */ = {
@@ -521,6 +544,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9192113121EDBD6900CD9C1B /* ZHFRealmManager.m in Sources */,
 				910A7CB6217E1E8400689DCF /* NSDate+ShortCut.m in Sources */,
 				919E73B5217EBAD0003D5F37 /* UITextView+Helper.m in Sources */,
 				910A7CB3217E1E8400689DCF /* NSArray+ShortCut.m in Sources */,
@@ -541,9 +565,11 @@
 				910A7CB4217E1E8400689DCF /* UIButton+ZHFShortCut.m in Sources */,
 				910A7CAF217E1E8400689DCF /* NSString+ShortCut.m in Sources */,
 				919F79DE21904FEF00A82C0D /* ZHFPersistenceRealm.m in Sources */,
+				9192113721EDC2D300CD9C1B /* ZHFPerson.m in Sources */,
 				910A7CB1217E1E8400689DCF /* UIView+Draw.m in Sources */,
 				910A7CBF217E1E8400689DCF /* ZHFProgressHUD.m in Sources */,
 				919F79D721904BD100A82C0D /* ZHFPersistenceLibrary.m in Sources */,
+				9192113421EDC18D00CD9C1B /* ZHFPruduct.m in Sources */,
 				919F79DB21904E2E00A82C0D /* ZHFPersistenceSQL.m in Sources */,
 				918B575D2170858F00E9B71D /* AppDelegate.m in Sources */,
 				910A7CB9217E1E8400689DCF /* GlobalConfig.m in Sources */,
