@@ -25,7 +25,6 @@ Pod::Spec.new do |spec|
   
   spec.dependency 'AFNetworking'
   spec.dependency 'MBProgressHUD'
-  spec.dependency 'YYModel'
   spec.dependency 'Masonry'
   spec.dependency 'FMDB'
   spec.dependency 'Realm'
