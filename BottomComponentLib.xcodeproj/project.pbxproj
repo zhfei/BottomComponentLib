@@ -32,6 +32,7 @@
 		910A7CC6217E1ECD00689DCF /* phoneNumPrefix.plist in Resources */ = {isa = PBXBuildFile; fileRef = 910A7CC4217E1ECD00689DCF /* phoneNumPrefix.plist */; };
 		910A7CC7217E1ECD00689DCF /* Document.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910A7CC5217E1ECD00689DCF /* Document.strings */; };
 		917A3BC3217F78A7009094F3 /* ZHFLogerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A3BC2217F78A7009094F3 /* ZHFLogerManager.m */; };
+		9180C18821F73FB6002711FC /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9180C18721F73FB6002711FC /* NSObject+Runtime.m */; };
 		918B575D2170858F00E9B71D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B575C2170858F00E9B71D /* AppDelegate.m */; };
 		918B57602170858F00E9B71D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B575F2170858F00E9B71D /* ViewController.m */; };
 		918B57632170858F00E9B71D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918B57612170858F00E9B71D /* Main.storyboard */; };
@@ -112,6 +113,8 @@
 		910A7CC5217E1ECD00689DCF /* Document.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Document.strings; sourceTree = "<group>"; };
 		917A3BC1217F78A7009094F3 /* ZHFLogerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFLogerManager.h; sourceTree = "<group>"; };
 		917A3BC2217F78A7009094F3 /* ZHFLogerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFLogerManager.m; sourceTree = "<group>"; };
+		9180C18621F73FB6002711FC /* NSObject+Runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
+		9180C18721F73FB6002711FC /* NSObject+Runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
 		918B57582170858F00E9B71D /* BottomComponentLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottomComponentLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		918B575B2170858F00E9B71D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		918B575C2170858F00E9B71D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -229,6 +232,8 @@
 				910A7C90217E1E8400689DCF /* UIImage+Custom.h */,
 				91FE53C921C53C70009B4B0A /* NSMutableArray+Stack.h */,
 				91FE53CA21C53C70009B4B0A /* NSMutableArray+Stack.m */,
+				9180C18621F73FB6002711FC /* NSObject+Runtime.h */,
+				9180C18721F73FB6002711FC /* NSObject+Runtime.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -560,6 +565,7 @@
 				910A7CBD217E1E8400689DCF /* ZHFAlertControlle.m in Sources */,
 				910A7CBB217E1E8400689DCF /* ZHFNetworking.m in Sources */,
 				910A7CAD217E1E8400689DCF /* NSDateFormatter+ShortCut.m in Sources */,
+				9180C18821F73FB6002711FC /* NSObject+Runtime.m in Sources */,
 				910A7CC1217E1E8400689DCF /* FileManager.m in Sources */,
 				910A7CBE217E1E8400689DCF /* ZHFQRCodeView.m in Sources */,
 				910A7CB4217E1E8400689DCF /* UIButton+ZHFShortCut.m in Sources */,
