@@ -47,6 +47,10 @@
 		919F79D721904BD100A82C0D /* ZHFPersistenceLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79D621904BD100A82C0D /* ZHFPersistenceLibrary.m */; };
 		919F79DB21904E2E00A82C0D /* ZHFPersistenceSQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79DA21904E2E00A82C0D /* ZHFPersistenceSQL.m */; };
 		919F79DE21904FEF00A82C0D /* ZHFPersistenceRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79DD21904FEF00A82C0D /* ZHFPersistenceRealm.m */; };
+		91AC943021F84D8500065458 /* ZFAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC942A21F84D8500065458 /* ZFAlertViewController.m */; };
+		91AC943121F84D8500065458 /* ZFAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AC942C21F84D8500065458 /* ZFAlertViewController.xib */; };
+		91AC943221F84D8500065458 /* ZFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC942E21F84D8500065458 /* ZFAlertView.m */; };
+		91AC943321F84D8500065458 /* ZFAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AC942F21F84D8500065458 /* ZFAlertView.xib */; };
 		91FE53CB21C53C70009B4B0A /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FE53CA21C53C70009B4B0A /* NSMutableArray+Stack.m */; };
 		C9DEF5A9A8F712C3D2844D35 /* libPods-BottomComponentLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D88CD5292384518C4FC820CA /* libPods-BottomComponentLib.a */; };
 /* End PBXBuildFile section */
@@ -143,6 +147,12 @@
 		919F79DA21904E2E00A82C0D /* ZHFPersistenceSQL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFPersistenceSQL.m; sourceTree = "<group>"; };
 		919F79DC21904FEF00A82C0D /* ZHFPersistenceRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFPersistenceRealm.h; sourceTree = "<group>"; };
 		919F79DD21904FEF00A82C0D /* ZHFPersistenceRealm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFPersistenceRealm.m; sourceTree = "<group>"; };
+		91AC942A21F84D8500065458 /* ZFAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFAlertViewController.m; sourceTree = "<group>"; };
+		91AC942B21F84D8500065458 /* ZFAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFAlertViewController.h; sourceTree = "<group>"; };
+		91AC942C21F84D8500065458 /* ZFAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFAlertViewController.xib; sourceTree = "<group>"; };
+		91AC942D21F84D8500065458 /* ZFAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFAlertView.h; sourceTree = "<group>"; };
+		91AC942E21F84D8500065458 /* ZFAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFAlertView.m; sourceTree = "<group>"; };
+		91AC942F21F84D8500065458 /* ZFAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFAlertView.xib; sourceTree = "<group>"; };
 		91FE53C921C53C70009B4B0A /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
 		91FE53CA21C53C70009B4B0A /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
 		D88CD5292384518C4FC820CA /* libPods-BottomComponentLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BottomComponentLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -261,6 +271,7 @@
 		910A7C9A217E1E8400689DCF /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				91AC942921F84C7900065458 /* CustomAlertVC */,
 				919F79D421904BD100A82C0D /* PersistenceLibrary */,
 				910A7C9F217E1E8400689DCF /* ZHFTopWindow.h */,
 				910A7C9B217E1E8400689DCF /* ZHFTopWindow.m */,
@@ -377,6 +388,19 @@
 			path = PersistenceLibrary;
 			sourceTree = "<group>";
 		};
+		91AC942921F84C7900065458 /* CustomAlertVC */ = {
+			isa = PBXGroup;
+			children = (
+				91AC942D21F84D8500065458 /* ZFAlertView.h */,
+				91AC942E21F84D8500065458 /* ZFAlertView.m */,
+				91AC942F21F84D8500065458 /* ZFAlertView.xib */,
+				91AC942B21F84D8500065458 /* ZFAlertViewController.h */,
+				91AC942A21F84D8500065458 /* ZFAlertViewController.m */,
+				91AC942C21F84D8500065458 /* ZFAlertViewController.xib */,
+			);
+			path = CustomAlertVC;
+			sourceTree = "<group>";
+		};
 		91B329292176E6EC00DD0042 /* Resouce */ = {
 			isa = PBXGroup;
 			children = (
@@ -481,8 +505,10 @@
 				918B57682170859200E9B71D /* LaunchScreen.storyboard in Resources */,
 				910A7CC7217E1ECD00689DCF /* Document.strings in Resources */,
 				918B57652170859200E9B71D /* Assets.xcassets in Resources */,
+				91AC943321F84D8500065458 /* ZFAlertView.xib in Resources */,
 				910A7CC6217E1ECD00689DCF /* phoneNumPrefix.plist in Resources */,
 				918B57632170858F00E9B71D /* Main.storyboard in Resources */,
+				91AC943121F84D8500065458 /* ZFAlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +580,7 @@
 				919E73B5217EBAD0003D5F37 /* UITextView+Helper.m in Sources */,
 				910A7CB3217E1E8400689DCF /* NSArray+ShortCut.m in Sources */,
 				91FE53CB21C53C70009B4B0A /* NSMutableArray+Stack.m in Sources */,
+				91AC943021F84D8500065458 /* ZFAlertViewController.m in Sources */,
 				917A3BC3217F78A7009094F3 /* ZHFLogerManager.m in Sources */,
 				910A7CC3217E1E8400689DCF /* Utility.m in Sources */,
 				910A7CB8217E1E8400689DCF /* UILabel+ShortCut.m in Sources */,
@@ -576,6 +603,7 @@
 				910A7CBF217E1E8400689DCF /* ZHFProgressHUD.m in Sources */,
 				919F79D721904BD100A82C0D /* ZHFPersistenceLibrary.m in Sources */,
 				9192113421EDC18D00CD9C1B /* ZHFPruduct.m in Sources */,
+				91AC943221F84D8500065458 /* ZFAlertView.m in Sources */,
 				919F79DB21904E2E00A82C0D /* ZHFPersistenceSQL.m in Sources */,
 				918B575D2170858F00E9B71D /* AppDelegate.m in Sources */,
 				910A7CB9217E1E8400689DCF /* GlobalConfig.m in Sources */,
@@ -753,7 +781,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SRC/Swift/BottomComponentLib-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -775,7 +803,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ZHF.BottomComponentLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SRC/Swift/BottomComponentLib-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

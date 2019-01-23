@@ -13,9 +13,12 @@ SingletonM(ZHFTopWindow)
 - (instancetype)init {
     self = [super initWithFrame:[UIScreen mainScreen].bounds];
     if (self) {
-        self.windowLevel = CGFLOAT_MAX;
-        UIViewController *rootVC = [[UIViewController alloc] init];
-        self.rootViewController = rootVC;
+        self.windowLevel = NSUIntegerMax;
+        self.rootViewController = [UIViewController new];
+        [self makeKeyAndVisible];
+        [self setHidden:YES];
+        [self setBackgroundColor:[UIColor blackColor]];
+        [self setAlpha:0.5];
     }
     return self;
 }

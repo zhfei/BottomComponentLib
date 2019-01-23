@@ -26,9 +26,9 @@ extension UIImage {
 //        let rect = UIScreen.main.bounds
         UIGraphicsBeginImageContextWithOptions(rect.size, true, 1)
         image?.draw(in: CGRect(x: 0, y: 0, width: rect.size.width, height: rect.size.height))
-        
-        let att = [NSAttributedString.Key.font:UIFont(name: "PingFang SC", size: 15),
-                   NSAttributedString.Key.foregroundColor:UIColor.red]
+
+        let att = [NSAttributedStringKey.font:UIFont(name: "PingFang SC", size: 15),
+                   NSAttributedStringKey.foregroundColor:UIColor.red]
         waterText.draw(at: CGPoint(x: rect.size.width*0.1, y: rect.size.height*0.1), withAttributes: att)
         
         let result = UIGraphicsGetImageFromCurrentImageContext()
@@ -85,8 +85,10 @@ extension UIImage {
         
         view.layer.render(in: context!)
         
+        
+        
         let resultImage = UIGraphicsGetImageFromCurrentImageContext()
-        let resultData = UIImage.jpegData(resultImage!)
+        let resultData = UIImageJPEGRepresentation(resultImage!, 1)
         
         UIGraphicsEndImageContext()
         
@@ -110,7 +112,7 @@ extension UIImage {
         resultImage?.draw(at: CGPoint(x: -cutFrame.origin.x, y: -cutFrame.origin.y))
         resultImage = UIGraphicsGetImageFromCurrentImageContext()
         
-        let resultData = UIImage.jpegData(resultImage!)
+        let resultData = UIImageJPEGRepresentation(resultImage!, 1)
         
         completeBlock(resultImage!,resultData as! NSData)
     }

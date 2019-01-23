@@ -65,7 +65,6 @@
 - (void)showAlertVC {
     ZHFTopWindow *window = [ZHFTopWindow sharedZHFTopWindow];
     window.hidden = NO;
-    [window makeKeyAndVisible];
     [window.rootViewController presentViewController:self animated:YES completion:nil];
 }
 
