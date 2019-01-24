@@ -29,4 +29,15 @@
     self.layer.mask         = maskLayer;
     [self.layer setMasksToBounds:YES];
 }
+
++ (void)drawCornerRound:(UIView *)view {
+    [self drawCornerRound:view radius:5 borderColor:[UIColor whiteColor]  borderWidth:0];
+}
+
++ (void)drawCornerRound:(UIView *)view radius:(CGFloat)radius borderColor:(UIColor *)color borderWidth:(CGFloat)borderWidth {
+    view.layer.cornerRadius = radius;
+    view.layer.borderWidth = borderWidth;
+    view.layer.borderColor = color.CGColor;
+    view.layer.masksToBounds = YES;
+}
 @end

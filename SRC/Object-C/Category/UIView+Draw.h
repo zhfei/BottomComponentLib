@@ -10,6 +10,9 @@
 
 @interface UIView (Draw)
 - (void)drawCenterCircle:(CGFloat)radius color:(UIColor *)color;
-
 - (void)addCornerAtPostion:(UIRectCorner)postion;
+//画圆角
++ (void)drawCornerRound:(UIView *)view;
++ (void)drawCornerRound:(UIView *)view radius:(CGFloat)radius borderColor:(UIColor *)color borderWidth:(CGFloat)borderWidth;
+
 @end

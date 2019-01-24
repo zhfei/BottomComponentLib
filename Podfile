@@ -32,6 +32,8 @@ def library3
     pod 'MJRefresh'
     pod 'MBProgressHUD'
     pod 'SDWebImage'
+    #cell自动适配行高
+    pod 'UITableView+FDTemplateLayoutCell'
     #工具集
     pod 'YYKit'
     #分享
