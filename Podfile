@@ -34,6 +34,8 @@ def library3
     pod 'SDWebImage'
     #cell自动适配行高
     pod 'UITableView+FDTemplateLayoutCell'
+    #水平侧滑库
+    pod 'JXCategoryView'
     #工具集
     pod 'YYKit'
     #分享
