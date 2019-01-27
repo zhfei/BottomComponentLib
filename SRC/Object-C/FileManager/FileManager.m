@@ -32,6 +32,12 @@
         [dict writeToFile:path atomically:YES];
     }
 }
+
+//存数据
++ (void)saveData:(NSData *)data toPath:(NSString *)path {
+    [data writeToFile:path atomically:YES];
+}
+
 + (id)readObjetFromPath:(NSString *)path {
     if ([[NSFileManager defaultManager] fileExistsAtPath:path]) {
         return [NSDictionary dictionaryWithContentsOfFile:path];

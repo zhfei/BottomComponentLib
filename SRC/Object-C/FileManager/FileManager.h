@@ -19,6 +19,8 @@
 + (BOOL)createDir:(NSString *)dirPath;
 //存数据
 + (void)saveObjet:(NSDictionary *)dict toPath:(NSString *)path;
+//存数据
++ (void)saveData:(NSData *)data toPath:(NSString *)path;
 //读数据
 + (id)readObjetFromPath:(NSString *)path;
 + (NSArray *)readObjetsFromPath:(NSString *)path;
