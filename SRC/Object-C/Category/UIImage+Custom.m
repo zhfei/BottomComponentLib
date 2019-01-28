@@ -57,4 +57,26 @@
     
 }
 
++ (UIImage *)roundedCornerImage:(UIImage *)image {
+    CGSize size = image.size;
+    CGFloat radius = size.width > size.height ? size.height : size.width;
+    
+    UIGraphicsBeginImageContextWithOptions(size, NO, 1.0);
+//    UIGraphicsBeginImageContext(size);
+    [[UIBezierPath bezierPathWithRoundedRect:CGRectMake(0, 0, size.width, size.height) cornerRadius:radius] addClip];
+    [image drawInRect:CGRectMake(0, 0, size.width, size.height)];
+    UIImage *result = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return result;
+}
+
++ (UIImage *)scaleImage:(UIImage *)image scale:(CGFloat)scale {
+//    NSData *data = UIImageJPEGRepresentation(image, scale);
+    NSData *data = UIImagePNGRepresentation(image);
+    UIImage *result = [UIImage imageWithData:data scale:scale];
+    return result;
+}
+
+
 @end

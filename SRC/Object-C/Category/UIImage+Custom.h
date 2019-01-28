@@ -25,4 +25,14 @@
  在图片上加另一个图片作为水印
  */
 + (UIImage *)waterMarkInImage:(UIImage *)image waterImage:(UIImage *)waterImage point:(CGPoint)point scale:(CGFloat)scale;
+/**
+ 在图片上添加圆角
+ */
++ (UIImage *)roundedCornerImage:(UIImage *)image;
+/**
+ 对图片进行缩放
+ */
++ (UIImage *)scaleImage:(UIImage *)image scale:(CGFloat)scale;
+
+
 @end
