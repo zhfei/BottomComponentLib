@@ -83,4 +83,13 @@
             lroundf(g * 255),
             lroundf(b * 255)];
 }
+
++ (UIColor *)randomColor {
+    CGFloat r = arc4random_uniform(255)/255.0;
+    CGFloat g = arc4random_uniform(255)/255.0;
+    CGFloat b = arc4random_uniform(255)/255.0;
+    
+    UIColor *color = [UIColor colorWithRed:r green:g blue:b alpha:1];
+    return color;
+}
 @end

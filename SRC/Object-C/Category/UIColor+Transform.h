@@ -34,4 +34,10 @@ typedef struct RGBValue {
  @return 十六进制字符串
  */
 + (NSString *)hexStringFromColor:(UIColor *)color;
+
+/**
+ 生成随机颜色
+ @return 随机颜色
+ */
++ (UIColor *)randomColor;
 @end
