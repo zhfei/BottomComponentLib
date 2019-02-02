@@ -78,5 +78,9 @@
     return result;
 }
 
++ (NSData *)scaleImage2Data:(UIImage *)image scale:(CGFloat)scale {
+    NSData *data = UIImageJPEGRepresentation(image, scale);
+    return data;
+}
 
 @end

@@ -34,5 +34,5 @@
  */
 + (UIImage *)scaleImage:(UIImage *)image scale:(CGFloat)scale;
 
-
++ (NSData *)scaleImage2Data:(UIImage *)image scale:(CGFloat)scale ;
 @end
