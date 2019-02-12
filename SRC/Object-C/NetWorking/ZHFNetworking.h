@@ -14,16 +14,12 @@
 + (void)asyncWithParameter:(ZHFRequestParameter *)parameter
                    success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
                    failure:(nullable void (^)(NSURLSessionDataTask *_Nullable task, NSError *error))failure;
-//同步请求
-+ (void)syncWithParameter:(ZHFRequestParameter *)parameter
-                  success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
-                  failure:(nullable void (^)(NSURLSessionDataTask *_Nullable task, NSError *error))failure;
 
 /*!**上传***/
-+ (void)uploadTaskWithRequest:(NSURLRequest *)request
-                        fromFile:(NSURL *)fileURL
-                        progress:(void (^)(NSProgress *uploadProgress))uploadProgressBlock
-               completionHandler:(void (^)(NSURLResponse *response, id responseObject, NSError *error))completionHandler;
++ (void)uploadTaskWithParameter:(ZHFRequestParameter *)parameter
+                           data:(NSData *)data
+                       progress:(void (^)(NSProgress *uploadProgress))uploadProgressBlock
+              completionHandler:(void (^)(NSURLResponse *response, id responseObject, NSError *error))completionHandler;
 
 /*!**下载***/
 + (void)downloadTaskWithWithParameters:(ZHFRequestParameter *)parameter
