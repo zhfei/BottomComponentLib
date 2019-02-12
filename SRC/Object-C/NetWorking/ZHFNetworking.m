@@ -158,6 +158,7 @@ static AFHTTPSessionManager *aManager;
                 break;
         }
     }];
+    [manager startMonitoring];
 }
 
 @end
