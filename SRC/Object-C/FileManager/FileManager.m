@@ -54,6 +54,31 @@
     return nil;
 }
 
++ (BOOL)deleteFilesRecursion:(NSString *)path {
+    //1.判断时文件还是目录
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    BOOL isDir = NO;
+    BOOL isExit = [fileManager fileExistsAtPath:path isDirectory:&isDir];
+    if (isExit) {
+        if (isDir) {
+            NSArray *fileArray = [fileManager contentsOfDirectoryAtPath:path error:nil];
+            for (NSString *subPath in fileArray) {
+                NSString *path1 = [path stringByAppendingPathComponent:subPath];
+                [self deleteFilesRecursion:path1];
+            }
+            
+        } else {
+            NSLog(@"删除文件:%@",path);
+            [fileManager removeItemAtPath:path error:nil];
+        }
+    } else {
+        NSLog(@"删除的是目录或者不存在:%@",path);
+    }
+    
+    
+    return YES;
+}
+
 + (BOOL)createDir:(NSString *)dirPath
 {
     BOOL creatingSuccess = NO;
