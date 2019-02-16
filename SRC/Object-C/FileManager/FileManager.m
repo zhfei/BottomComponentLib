@@ -84,6 +84,7 @@
     BOOL creatingSuccess = NO;
     
     BOOL isDir = NO;
+    //判断文件是否存在，判断路径是否为目录
     BOOL isCreated = [[NSFileManager defaultManager] fileExistsAtPath:dirPath isDirectory:&isDir];
     if ( isCreated == NO || isDir == NO )
     {
