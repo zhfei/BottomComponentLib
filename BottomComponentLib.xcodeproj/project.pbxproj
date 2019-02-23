@@ -48,6 +48,7 @@
 		919F79D721904BD100A82C0D /* ZHFPersistenceLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79D621904BD100A82C0D /* ZHFPersistenceLibrary.m */; };
 		919F79DB21904E2E00A82C0D /* ZHFPersistenceSQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79DA21904E2E00A82C0D /* ZHFPersistenceSQL.m */; };
 		919F79DE21904FEF00A82C0D /* ZHFPersistenceRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79DD21904FEF00A82C0D /* ZHFPersistenceRealm.m */; };
+		91A57FB02221A22200DBA8D2 /* BottomComponentLib.png in Resources */ = {isa = PBXBuildFile; fileRef = 91A57FAF2221A22200DBA8D2 /* BottomComponentLib.png */; };
 		91AC943021F84D8500065458 /* ZFAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC942A21F84D8500065458 /* ZFAlertViewController.m */; };
 		91AC943121F84D8500065458 /* ZFAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AC942C21F84D8500065458 /* ZFAlertViewController.xib */; };
 		91AC943221F84D8500065458 /* ZFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC942E21F84D8500065458 /* ZFAlertView.m */; };
@@ -150,6 +151,7 @@
 		919F79DA21904E2E00A82C0D /* ZHFPersistenceSQL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFPersistenceSQL.m; sourceTree = "<group>"; };
 		919F79DC21904FEF00A82C0D /* ZHFPersistenceRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFPersistenceRealm.h; sourceTree = "<group>"; };
 		919F79DD21904FEF00A82C0D /* ZHFPersistenceRealm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFPersistenceRealm.m; sourceTree = "<group>"; };
+		91A57FAF2221A22200DBA8D2 /* BottomComponentLib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BottomComponentLib.png; sourceTree = "<group>"; };
 		91AC942A21F84D8500065458 /* ZFAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFAlertViewController.m; sourceTree = "<group>"; };
 		91AC942B21F84D8500065458 /* ZFAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFAlertViewController.h; sourceTree = "<group>"; };
 		91AC942C21F84D8500065458 /* ZFAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFAlertViewController.xib; sourceTree = "<group>"; };
@@ -321,6 +323,7 @@
 		918B574F2170858F00E9B71D = {
 			isa = PBXGroup;
 			children = (
+				91A57FAE2221A20900DBA8D2 /* Rresource */,
 				918B57C921708BF000E9B71D /* SRC */,
 				918B575A2170858F00E9B71D /* BottomComponentLib */,
 				918B57732170859200E9B71D /* BottomComponentLibTests */,
@@ -399,6 +402,14 @@
 				919F79DD21904FEF00A82C0D /* ZHFPersistenceRealm.m */,
 			);
 			path = PersistenceLibrary;
+			sourceTree = "<group>";
+		};
+		91A57FAE2221A20900DBA8D2 /* Rresource */ = {
+			isa = PBXGroup;
+			children = (
+				91A57FAF2221A22200DBA8D2 /* BottomComponentLib.png */,
+			);
+			path = Rresource;
 			sourceTree = "<group>";
 		};
 		91AC942921F84C7900065458 /* CustomAlertVC */ = {
@@ -515,6 +526,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A57FB02221A22200DBA8D2 /* BottomComponentLib.png in Resources */,
 				918B57682170859200E9B71D /* LaunchScreen.storyboard in Resources */,
 				910A7CC7217E1ECD00689DCF /* Document.strings in Resources */,
 				918B57652170859200E9B71D /* Assets.xcassets in Resources */,

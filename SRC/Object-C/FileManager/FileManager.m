@@ -75,7 +75,6 @@
         NSLog(@"删除的是目录或者不存在:%@",path);
     }
     
-    
     return YES;
 }
 
