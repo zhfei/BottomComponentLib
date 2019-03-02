@@ -31,6 +31,7 @@
 		910A7CC3217E1E8400689DCF /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7CAA217E1E8400689DCF /* Utility.m */; };
 		910A7CC6217E1ECD00689DCF /* phoneNumPrefix.plist in Resources */ = {isa = PBXBuildFile; fileRef = 910A7CC4217E1ECD00689DCF /* phoneNumPrefix.plist */; };
 		910A7CC7217E1ECD00689DCF /* Document.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910A7CC5217E1ECD00689DCF /* Document.strings */; };
+		911E4740222A284A00E6772D /* UIView+coreAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 911E473F222A284A00E6772D /* UIView+coreAnimation.m */; };
 		9120F20621FF003100E5B90C /* UIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9120F20521FF003000E5B90C /* UIFactory.m */; };
 		917A3BC3217F78A7009094F3 /* ZHFLogerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A3BC2217F78A7009094F3 /* ZHFLogerManager.m */; };
 		9180C18821F73FB6002711FC /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9180C18721F73FB6002711FC /* NSObject+Runtime.m */; };
@@ -117,6 +118,8 @@
 		910A7CAB217E1E8400689DCF /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		910A7CC4217E1ECD00689DCF /* phoneNumPrefix.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = phoneNumPrefix.plist; sourceTree = "<group>"; };
 		910A7CC5217E1ECD00689DCF /* Document.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Document.strings; sourceTree = "<group>"; };
+		911E473E222A284A00E6772D /* UIView+coreAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+coreAnimation.h"; sourceTree = "<group>"; };
+		911E473F222A284A00E6772D /* UIView+coreAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+coreAnimation.m"; sourceTree = "<group>"; };
 		9120F20421FF003000E5B90C /* UIFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIFactory.h; sourceTree = "<group>"; };
 		9120F20521FF003000E5B90C /* UIFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIFactory.m; sourceTree = "<group>"; };
 		917A3BC1217F78A7009094F3 /* ZHFLogerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFLogerManager.h; sourceTree = "<group>"; };
@@ -250,6 +253,8 @@
 				91FE53CA21C53C70009B4B0A /* NSMutableArray+Stack.m */,
 				9180C18621F73FB6002711FC /* NSObject+Runtime.h */,
 				9180C18721F73FB6002711FC /* NSObject+Runtime.m */,
+				911E473E222A284A00E6772D /* UIView+coreAnimation.h */,
+				911E473F222A284A00E6772D /* UIView+coreAnimation.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -625,6 +630,7 @@
 				910A7CAF217E1E8400689DCF /* NSString+ShortCut.m in Sources */,
 				919F79DE21904FEF00A82C0D /* ZHFPersistenceRealm.m in Sources */,
 				9192113721EDC2D300CD9C1B /* ZHFPerson.m in Sources */,
+				911E4740222A284A00E6772D /* UIView+coreAnimation.m in Sources */,
 				910A7CB1217E1E8400689DCF /* UIView+Draw.m in Sources */,
 				910A7CBF217E1E8400689DCF /* ZHFProgressHUD.m in Sources */,
 				919F79D721904BD100A82C0D /* ZHFPersistenceLibrary.m in Sources */,
