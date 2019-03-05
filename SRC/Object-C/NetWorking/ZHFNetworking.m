@@ -9,6 +9,7 @@
 #import "ZHFNetworking.h"
 #import "ZHFRequestParameter.h"
 #import <AFNetworking/AFNetworking.h>
+#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
 /// 当前任务ID
 NSInteger KCurrentTaskIdentifier = -1;
 NSInteger const kAFNetworkingTimeoutInterval = 30;
@@ -137,7 +138,7 @@ static AFHTTPSessionManager *aManager;
     }
 }
 
-+ (void)networkStatus {
++ (void)setupNetworkStatusAndStartMonitoring {
     //网络状态监听者
     AFNetworkReachabilityManager *manager = [AFNetworkReachabilityManager sharedManager];
     [manager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
@@ -158,7 +159,22 @@ static AFHTTPSessionManager *aManager;
                 break;
         }
     }];
+    
     [manager startMonitoring];
+}
+
++ (void)stopMonitoring {
+    AFNetworkReachabilityManager *manager = [AFNetworkReachabilityManager sharedManager];
+    [manager stopMonitoring];
+}
+
+
++ (void)setupQueueCache {
+    NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:4 * 1024 * 1024 diskCapacity:20 * 1024 * 1024 diskPath:nil];
+    [NSURLCache setSharedURLCache:URLCache];
+    
+    //显示网络请求时顶部小圆圈
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:NO];
 }
 
 @end

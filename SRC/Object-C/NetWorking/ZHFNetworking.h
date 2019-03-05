@@ -34,4 +34,13 @@
  取消当前任务
  */
 +(void)cancelCurrentDataTask;
+
+
+#pragma mark - tools
+//开启网络监听
++ (void)setupNetworkStatusAndStartMonitoring;
++ (void)stopMonitoring;
+//网络请求根据缓存策略，缓存到相应的位置。
++ (void)setupQueueCache;
+
 @end
