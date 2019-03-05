@@ -41,6 +41,6 @@
 + (void)setupNetworkStatusAndStartMonitoring;
 + (void)stopMonitoring;
 //网络请求根据缓存策略，缓存到相应的位置。
-+ (void)setupQueueCache;
++ (void)setupRequestCache;
 
 @end

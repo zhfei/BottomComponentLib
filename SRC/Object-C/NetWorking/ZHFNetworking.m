@@ -169,12 +169,12 @@ static AFHTTPSessionManager *aManager;
 }
 
 
-+ (void)setupQueueCache {
++ (void)setupRequestCache {
     NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:4 * 1024 * 1024 diskCapacity:20 * 1024 * 1024 diskPath:nil];
     [NSURLCache setSharedURLCache:URLCache];
     
     //显示网络请求时顶部小圆圈
-    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:NO];
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
 }
 
 @end
