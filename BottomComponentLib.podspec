@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'FMDB'
   spec.dependency 'Realm'
   spec.dependency 'YYKit'
-  
+  spec.dependency 'MLeaksFinder'
 
   spec.subspec "Object-C" do |oc|
   	oc.source_files = 'SRC/Object-C/**/*.{h,m}'

@@ -33,6 +33,7 @@
 		910A7CC7217E1ECD00689DCF /* Document.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910A7CC5217E1ECD00689DCF /* Document.strings */; };
 		911E4740222A284A00E6772D /* UIView+coreAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 911E473F222A284A00E6772D /* UIView+coreAnimation.m */; };
 		9120F20621FF003100E5B90C /* UIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9120F20521FF003000E5B90C /* UIFactory.m */; };
+		914871CE222EAFFF00822937 /* NSObject+FBRetainCycleDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 914871CD222EAFFF00822937 /* NSObject+FBRetainCycleDetector.m */; };
 		917A3BC3217F78A7009094F3 /* ZHFLogerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A3BC2217F78A7009094F3 /* ZHFLogerManager.m */; };
 		9180C18821F73FB6002711FC /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9180C18721F73FB6002711FC /* NSObject+Runtime.m */; };
 		918B575D2170858F00E9B71D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B575C2170858F00E9B71D /* AppDelegate.m */; };
@@ -122,6 +123,8 @@
 		911E473F222A284A00E6772D /* UIView+coreAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+coreAnimation.m"; sourceTree = "<group>"; };
 		9120F20421FF003000E5B90C /* UIFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIFactory.h; sourceTree = "<group>"; };
 		9120F20521FF003000E5B90C /* UIFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIFactory.m; sourceTree = "<group>"; };
+		914871CC222EAFFF00822937 /* NSObject+FBRetainCycleDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBRetainCycleDetector.h"; sourceTree = "<group>"; };
+		914871CD222EAFFF00822937 /* NSObject+FBRetainCycleDetector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBRetainCycleDetector.m"; sourceTree = "<group>"; };
 		917A3BC1217F78A7009094F3 /* ZHFLogerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFLogerManager.h; sourceTree = "<group>"; };
 		917A3BC2217F78A7009094F3 /* ZHFLogerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFLogerManager.m; sourceTree = "<group>"; };
 		9180C18621F73FB6002711FC /* NSObject+Runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
@@ -255,6 +258,8 @@
 				9180C18721F73FB6002711FC /* NSObject+Runtime.m */,
 				911E473E222A284A00E6772D /* UIView+coreAnimation.h */,
 				911E473F222A284A00E6772D /* UIView+coreAnimation.m */,
+				914871CC222EAFFF00822937 /* NSObject+FBRetainCycleDetector.h */,
+				914871CD222EAFFF00822937 /* NSObject+FBRetainCycleDetector.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -619,6 +624,7 @@
 				910A7CAE217E1E8400689DCF /* NSDecimalNumber+ShortCut.m in Sources */,
 				918B576B2170859200E9B71D /* main.m in Sources */,
 				910A7CB5217E1E8400689DCF /* UIColor+Transform.m in Sources */,
+				914871CE222EAFFF00822937 /* NSObject+FBRetainCycleDetector.m in Sources */,
 				9120F20621FF003100E5B90C /* UIFactory.m in Sources */,
 				910A7CBD217E1E8400689DCF /* ZHFAlertControlle.m in Sources */,
 				910A7CBB217E1E8400689DCF /* ZHFNetworking.m in Sources */,

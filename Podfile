@@ -14,6 +14,8 @@ def library2
     #带有动画效果的alert
     pod 'SIAlertView'
     pod 'CocoaSecurity'
+    #跑马灯
+    pod 'JhtMarquee'
     #用户引导页
     pod 'ZWIntroductionViewController'
     #自定义UICollectionViewCell高度
@@ -49,6 +51,11 @@ def library3
     #数据库
     pod 'FMDB'
     pod 'Realm'
+    #内存泄露检查库
+    pod "PLeakSniffer"
+    pod "MLeaksFinder"
+    #pod 'FBRetainCycleDetector'//默认被MLeaksFinder依赖
+
 end
 
 
