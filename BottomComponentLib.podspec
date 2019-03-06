@@ -28,7 +28,12 @@ Pod::Spec.new do |spec|
   spec.dependency 'Masonry'
   spec.dependency 'FMDB'
   spec.dependency 'Realm'
-  spec.dependency 'YYKit'
+  spec.dependency 'YYModel'
+  spec.dependency 'YYCache'
+  spec.dependency 'YYImage'
+  spec.dependency 'YYText'
+  spec.dependency 'YYWebImage'
+  spec.dependency 'YYCategories'
   spec.dependency 'MLeaksFinder'
 
   spec.subspec "Object-C" do |oc|
