@@ -8,7 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void(^ExecuteBlock)();
+
 @interface Utility : NSObject
 OBJC_EXTERN NSString* getXUUID();
 OBJC_EXTERN BOOL validateMobileNumber(NSString *mobileNumber);
+
++ (void)executeTime:(ExecuteBlock)block;
 @end

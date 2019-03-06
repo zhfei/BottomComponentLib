@@ -7,6 +7,7 @@
 //
 
 #import "NSObject+FBRetainCycleDetector.h"
+#import <FBRetainCycleDetector.h>
 
 @implementation NSObject (FBRetainCycleDetector)
 - (void)checkRetainCycle {

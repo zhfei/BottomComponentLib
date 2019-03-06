@@ -7,7 +7,7 @@
 //
 
 #import "ZHFLogerManager.h"
-#import <YYKit/UIApplication+YYAdd.h>
+#import <UIApplication+YYAdd.h>
 
 static NSString *KAppName;
 

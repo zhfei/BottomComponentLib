@@ -108,4 +108,20 @@ BOOL validateMobileNumber(NSString *mobileNumber) {
     
     return NO;
 }
+
++ (void)executeTime:(ExecuteBlock)block {
+    if (block) {
+        CFAbsoluteTime startTime =CFAbsoluteTimeGetCurrent();
+        //在这写入要计算时间的代码
+        block();
+        //打印出来为代码执行时间 单位ms
+        CFAbsoluteTime linkTime = (CFAbsoluteTimeGetCurrent() - startTime);
+        NSLog(@"Linked in %f ms", linkTime *1000.0);
+        
+    } else {
+        NSLog(@"无效任务...");
+    }
+    
+    
+}
 @end
