@@ -13,8 +13,7 @@
     UIBezierPath *bezier = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.bounds.size.width*0.5, self.bounds.size.height*0.5) radius:radius startAngle:0 endAngle:M_PI*2 clockwise:YES];
     
     CAShapeLayer *shape = [CAShapeLayer layer];
-    shape.path = bezier.CGPath;
-    shape.fillColor = color.CGColor;
+    shape.path = bezier.CGPath;    shape.fillColor = color.CGColor;
     shape.frame = self.bounds;
     [self.layer insertSublayer:shape atIndex:0];
 }

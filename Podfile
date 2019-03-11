@@ -48,6 +48,7 @@ def library3
     pod 'YYText'
     pod 'YYWebImage'
     pod 'YYCategories'
+    pod 'YYAsyncLayer'
     #UImage处理
     pod 'GPUImage'
     pod 'TZImagePickerController'

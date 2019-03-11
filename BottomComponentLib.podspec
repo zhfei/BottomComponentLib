@@ -45,7 +45,10 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec "Resouce" do |rs|
-    rs.source_files = 'SRC/Resouce/**/*.{storyboard,xcassets,xib,plist,strings}'
+    rs.resources = ['SRC/**/*.{storyboard,xcassets,xib,plist,strings}']
+    #rs.resource_bundles = {
+    #  'BottomComponentLib' => ['SRC/**/*.{storyboard,xcassets,xib,plist,strings}']
+    #}
   end
 
 
