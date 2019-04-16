@@ -72,5 +72,13 @@ return _instance; \
 #define FontWithSize(num)          [UIFont systemFontOfSize:num]
 #define FixNull(param, default) ((param == nil || [param isEqual:[NSNull null]]) ? default : param)
 
+// 异步主线程执行，不强持有Self
+#define DispatchAsyncOnMainQueue(x) \
+__weak typeof(self) weakSelf = self; \
+dispatch_async(dispatch_get_main_queue(), ^{ \
+typeof(weakSelf) self = weakSelf; \
+{x} \
+});
+
 #endif /* Macro_h */
 
