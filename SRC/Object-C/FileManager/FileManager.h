@@ -18,7 +18,6 @@
 
 //创建目录路径
 + (BOOL)createDir:(NSString *)dirPath;
-
 //存数据
 + (void)saveObjet:(NSDictionary *)dict toPath:(NSString *)path;
 //存数据

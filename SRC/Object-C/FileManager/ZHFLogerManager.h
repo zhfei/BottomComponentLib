@@ -27,6 +27,7 @@ typedef NS_ENUM(NSInteger, ZHFLogger_tag) {
 
 @interface ZHFLogerManager : NSObject
 SingletonH(ZHFLogerManager)
+
 @property (nonatomic, assign)ZHFLogger_level ZHF_LOG_LEVEL_LIMIT;
 
 + (void)log:(NSString *)message level:(ZHFLogger_level)level tag:(ZHFLogger_tag)tag;
