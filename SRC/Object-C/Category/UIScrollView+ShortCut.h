@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Macro.h"
 
 @protocol BCShortCutProtocol;
 
@@ -23,6 +24,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 //定义协议
 @protocol BCShortCutProtocol <NSObject>
+//methodA将要丢弃，请使用methodB方法
+- (void)methodA MethodDeprecated(-methodB);
+- (void)methodB ;
+
 
 @end
 
