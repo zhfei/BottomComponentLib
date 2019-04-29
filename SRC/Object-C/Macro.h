@@ -80,5 +80,8 @@ typeof(weakSelf) self = weakSelf; \
 {x} \
 });
 
+//方法失效
+#define MethodDeprecated(instead) DEPRECATED_MSG_ATTRIBUTE(" Use " # instead " instead")
+
 #endif /* Macro_h */
 
