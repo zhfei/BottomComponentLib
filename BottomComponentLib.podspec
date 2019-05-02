@@ -9,19 +9,18 @@ Pod::Spec.new do |spec|
   spec.homepage     = "www.baidu.com"
   spec.license      = 'MIT'
   spec.author       = { "zf" => "1174977961@qq.com" }
-  spec.source       = { :path => 'BottomComponentLib',}
-  #spec.source       = { :git => "https://github.com/zhfei/BottomComponentLib.git", :commit => "a1a94661"}
-
   spec.platform = :ios, '8.0'
   spec.requires_arc = true
-  #spec.source_files = 'SRC/**/*.{h,m,plist}'
-  #spec.public_header_files = 'SRC/**/*.{h}'
 
-  #spec.resource_bundles = {
-  #   'BottomComponentLib' => [
-  #     'SRC/**/*.{storyboard,xcassets,xib,plist}'
-  #  ]
-  #}
+  spec.source       = { :path => 'BottomComponentLib',}
+  spec.source_files = 'SRC/**/*.{h,m,plist}'
+  spec.public_header_files = 'SRC/**/*.{h}'
+
+  spec.resource_bundles = {
+     'BottomComponentLib' => [
+       'SRC/**/*.{storyboard,xcassets,xib,plist,strings}'
+    ]
+  }
   
   spec.dependency 'AFNetworking'
   spec.dependency 'MBProgressHUD'
@@ -36,21 +35,19 @@ Pod::Spec.new do |spec|
   spec.dependency 'YYCategories'
   spec.dependency 'MLeaksFinder'
 
-  spec.subspec "Object-C" do |oc|
-  	oc.source_files = 'SRC/Object-C/**/*.{h,m}'
-  end
+  #spec.subspec "Object-C" do |oc|
+  #	oc.source_files = 'SRC/Object-C/**/*.{h,m}'
+  #end
 
-  spec.subspec "Swift" do |sf|
-  	sf.source_files = 'SRC/Swift/**/*.{strings}'
-  end
+  #spec.subspec "Swift" do |sf|
+  #	sf.source_files = 'SRC/Swift/**/*.{strings}'
+  #end
 
-  spec.subspec "Resouce" do |rs|
-    rs.resources = ['SRC/**/*.{storyboard,xcassets,xib,plist,strings}']
-    #rs.resource_bundles = {
-    #  'BottomComponentLib' => ['SRC/**/*.{storyboard,xcassets,xib,plist,strings}']
-    #}
-  end
-
-
+  #spec.subspec "Resouce" do |rs|
+  # rs.resources = ['SRC/**/*.{storyboard,xcassets,xib,plist,strings}']
+  # rs.resource_bundles = {
+  #   'BottomComponentLib' => ['SRC/**/*.{storyboard,xcassets,xib,plist,strings}']
+  # }
+  #end
 
  end
