@@ -35,6 +35,7 @@
 		9120F20621FF003100E5B90C /* UIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9120F20521FF003000E5B90C /* UIFactory.m */; };
 		9132A601227201E6004A8432 /* UIScrollView+ShortCut.m in Sources */ = {isa = PBXBuildFile; fileRef = 9132A600227201E6004A8432 /* UIScrollView+ShortCut.m */; };
 		914871CE222EAFFF00822937 /* NSObject+FBRetainCycleDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 914871CD222EAFFF00822937 /* NSObject+FBRetainCycleDetector.m */; };
+		915FB8A322842B6000117F59 /* ZHFSysUtitly.m in Sources */ = {isa = PBXBuildFile; fileRef = 915FB8A222842B6000117F59 /* ZHFSysUtitly.m */; };
 		917A3BC3217F78A7009094F3 /* ZHFLogerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A3BC2217F78A7009094F3 /* ZHFLogerManager.m */; };
 		9180C18821F73FB6002711FC /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9180C18721F73FB6002711FC /* NSObject+Runtime.m */; };
 		918B575D2170858F00E9B71D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B575C2170858F00E9B71D /* AppDelegate.m */; };
@@ -128,6 +129,8 @@
 		9132A600227201E6004A8432 /* UIScrollView+ShortCut.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ShortCut.m"; sourceTree = "<group>"; };
 		914871CC222EAFFF00822937 /* NSObject+FBRetainCycleDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBRetainCycleDetector.h"; sourceTree = "<group>"; };
 		914871CD222EAFFF00822937 /* NSObject+FBRetainCycleDetector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBRetainCycleDetector.m"; sourceTree = "<group>"; };
+		915FB8A122842B6000117F59 /* ZHFSysUtitly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFSysUtitly.h; sourceTree = "<group>"; };
+		915FB8A222842B6000117F59 /* ZHFSysUtitly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFSysUtitly.m; sourceTree = "<group>"; };
 		917A3BC1217F78A7009094F3 /* ZHFLogerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFLogerManager.h; sourceTree = "<group>"; };
 		917A3BC2217F78A7009094F3 /* ZHFLogerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFLogerManager.m; sourceTree = "<group>"; };
 		9180C18621F73FB6002711FC /* NSObject+Runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
@@ -216,6 +219,8 @@
 				9192112E21EDBD4200CD9C1B /* RealmManager */,
 				910A7C99217E1E8400689DCF /* Macro.h */,
 				910A7CA7217E1E8400689DCF /* ZHFFoundation.h */,
+				915FB8A122842B6000117F59 /* ZHFSysUtitly.h */,
+				915FB8A222842B6000117F59 /* ZHFSysUtitly.m */,
 				910A7C78217E1E8400689DCF /* Category */,
 				910A7C91217E1E8400689DCF /* Config */,
 				910A7C94217E1E8400689DCF /* NetWorking */,
@@ -640,6 +645,7 @@
 				918B57602170858F00E9B71D /* ViewController.m in Sources */,
 				910A7CAE217E1E8400689DCF /* NSDecimalNumber+ShortCut.m in Sources */,
 				918B576B2170859200E9B71D /* main.m in Sources */,
+				915FB8A322842B6000117F59 /* ZHFSysUtitly.m in Sources */,
 				910A7CB5217E1E8400689DCF /* UIColor+Transform.m in Sources */,
 				914871CE222EAFFF00822937 /* NSObject+FBRetainCycleDetector.m in Sources */,
 				9120F20621FF003100E5B90C /* UIFactory.m in Sources */,
