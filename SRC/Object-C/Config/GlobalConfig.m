@@ -11,6 +11,14 @@
 #import <NSObject+YYModel.h>
 #import "FileManager.h"
 
+#if DEBUG
+NSString *const Domain = @"https:www.baidu.com";
+#else
+NSString *const Domain = @"http://7xqkjm.com1.z0.glb.clouddn.com";
+#endif
+
+
+
 @implementation GlobalConfig
 SingletonM(GlobalConfig)
 - (instancetype)init

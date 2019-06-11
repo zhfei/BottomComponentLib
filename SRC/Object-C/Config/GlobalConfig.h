@@ -10,6 +10,9 @@
 #import <UIKit/UIKit.h>
 #import "Macro.h"
 
+extern NSString *const Domain;
+
+
 @interface GlobalConfig : NSObject
 SingletonH(GlobalConfig)
 @property (nonatomic, strong) NSString *lineColorHex;

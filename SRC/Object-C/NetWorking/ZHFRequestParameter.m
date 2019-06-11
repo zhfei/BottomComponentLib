@@ -7,6 +7,7 @@
 //
 
 #import "ZHFRequestParameter.h"
+#import "GlobalConfig.h"
 
 @interface ZHFRequestParameter()
 @property (nonatomic, strong) NSString *defaultDomain;
@@ -17,7 +18,7 @@
 {
     self = [super init];
     if (self) {
-        self.defaultDomain = @"http://7xqkjm.com1.z0.glb.clouddn.com";
+        self.defaultDomain = Domain;
         //ZF_initData.zip
         self.requestMethod = ZHFRequestMethodGET;
     }

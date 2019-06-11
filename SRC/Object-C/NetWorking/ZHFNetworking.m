@@ -10,6 +10,7 @@
 #import "ZHFRequestParameter.h"
 #import <AFNetworking/AFNetworking.h>
 #import <AFNetworking/AFNetworkActivityIndicatorManager.h>
+
 /// 当前任务ID
 NSInteger KCurrentTaskIdentifier = -1;
 NSInteger const kAFNetworkingTimeoutInterval = 30;
