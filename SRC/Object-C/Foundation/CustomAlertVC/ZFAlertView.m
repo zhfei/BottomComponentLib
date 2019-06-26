@@ -13,8 +13,18 @@
 @end
 
 @implementation ZFAlertView
+- (void)awakeFromNib {
+    self.layer.cornerRadius = 5;
+    self.layer.borderWidth = 1;
+    self.layer.borderColor = [UIColor lightGrayColor].CGColor;
+    self.layer.masksToBounds = YES;
+}
+
 + (ZFAlertView *)alertView {
-    ZFAlertView *header = [[NSBundle mainBundle] loadNibNamed:@"ZFAlertView" owner:nil options:nil][0];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"BottomComponentLib" ofType:@"bundle"];
+    
+    NSBundle *bundle = [[NSBundle alloc] initWithPath:path];
+    ZFAlertView *header = [bundle loadNibNamed:@"ZFAlertView" owner:nil options:nil][0];
     return header;
 }
 - (IBAction)sureAction:(UIButton *)sender {
