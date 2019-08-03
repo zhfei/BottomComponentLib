@@ -66,6 +66,8 @@ def library3
     
     #统计
     pod 'UMengAnalytics-NO-IDFA','4.1.1'
+    #Bug统计
+    pod 'Bugly'
     #数据库
     pod 'FMDB'
     pod 'Realm'
