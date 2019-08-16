@@ -18,6 +18,8 @@ def library2
     pod 'JhtMarquee'
     #用户引导页
     pod 'ZWIntroductionViewController'
+    #IM聊天UI工具
+    pod 'JSQMessagesViewController'
     #自定义UICollectionViewCell高度
     pod 'UICollectionView-ARDynamicHeightLayoutCell_Bell'
     #标签流显示控件，支持文字和View
