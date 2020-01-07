@@ -7,7 +7,7 @@
 //
 
 #import "BCQRCodeView.h"
-#import "Macro.h"
+#import "BCMacro.h"
 #import <AVFoundation/AVFoundation.h>
 
 @interface BCQRCodeView()<AVCaptureMetadataOutputObjectsDelegate>

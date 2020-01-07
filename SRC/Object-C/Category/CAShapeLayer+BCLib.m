@@ -8,7 +8,7 @@
 
 #import "CAShapeLayer+BCLib.h"
 #import <UIKit/UIKit.h>
-#import "Macro.h"
+#import "BCMacro.h"
 
 @implementation CAShapeLayer (BCLib)
 // !!!: 快捷创建

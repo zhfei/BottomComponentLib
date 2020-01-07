@@ -7,7 +7,7 @@
 //
 
 #import "UIButton+BCLib.h"
-#import "Macro.h"
+#import "BCMacro.h"
 #import <objc/runtime.h>
 
 @interface ButtonBlockTarget : NSObject

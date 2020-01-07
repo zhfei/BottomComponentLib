@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Macro.h"
+#import "BCMacro.h"
 
 @interface BCTopWindow : UIWindow
 SingletonH(BCTopWindow)

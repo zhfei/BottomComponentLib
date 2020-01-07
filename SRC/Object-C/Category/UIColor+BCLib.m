@@ -7,7 +7,7 @@
 //
 
 #import "UIColor+BCLib.h"
-#import "Macro.h"
+#import "BCMacro.h"
 
 @implementation UIColor (BCLib)
 + (UIColor *)colorWithHexString:(NSString *)hex alpha:(CGFloat)alpha {

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Macro.h"
+#import "BCMacro.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

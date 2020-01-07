@@ -79,7 +79,7 @@
 		910A7C96217E1E8400689DCF /* BCRequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRequestParameter.h; sourceTree = "<group>"; };
 		910A7C97217E1E8400689DCF /* BCRequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCRequestParameter.m; sourceTree = "<group>"; };
 		910A7C98217E1E8400689DCF /* BCNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCNetworking.m; sourceTree = "<group>"; };
-		910A7C99217E1E8400689DCF /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		910A7C99217E1E8400689DCF /* BCMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCMacro.h; sourceTree = "<group>"; };
 		910A7C9B217E1E8400689DCF /* BCTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCTopWindow.m; sourceTree = "<group>"; };
 		910A7C9C217E1E8400689DCF /* BCProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCProgressHUD.h; sourceTree = "<group>"; };
 		910A7C9D217E1E8400689DCF /* BCQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCQRCodeView.h; sourceTree = "<group>"; };
@@ -209,7 +209,7 @@
 			children = (
 				9120F20321FF001E00E5B90C /* UIFactory */,
 				9192112E21EDBD4200CD9C1B /* RealmManager */,
-				910A7C99217E1E8400689DCF /* Macro.h */,
+				910A7C99217E1E8400689DCF /* BCMacro.h */,
 				910A7CA7217E1E8400689DCF /* BCFoundation.h */,
 				915FB8A122842B6000117F59 /* BCSysUtitly.h */,
 				915FB8A222842B6000117F59 /* BCSysUtitly.m */,

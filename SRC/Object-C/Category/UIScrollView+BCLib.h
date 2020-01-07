@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Macro.h"
+#import "BCMacro.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

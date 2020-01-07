@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "Macro.h"
+#import "BCMacro.h"
 
 extern NSString *const Domain;
 

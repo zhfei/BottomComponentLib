@@ -1,13 +1,13 @@
 //
-//  Macro.h
+//  BCMacro.h
 //  BottomComponentLib
 //
 //  Created by zhoufei on 2018/10/6.
 //  Copyright © 2018年 周飞. All rights reserved.
 //
 
-#ifndef Macro_h
-#define Macro_h
+#ifndef BCMacro_h
+#define BCMacro_h
 
 #if DEBUG
 #define NSLog(...) NSLog(__VA_ARGS__)
@@ -83,5 +83,5 @@ typeof(weakSelf) self = weakSelf; \
 //方法失效
 #define MethodDeprecated(instead) DEPRECATED_MSG_ATTRIBUTE(" Use " # instead " instead")
 
-#endif /* Macro_h */
+#endif /* BCMacro_h */
 

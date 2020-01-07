@@ -8,7 +8,7 @@
 //  持久化协议
 
 #import <Foundation/Foundation.h>
-#import "Macro.h"
+#import "BCMacro.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol BCPersistenceProtocol <NSObject>
