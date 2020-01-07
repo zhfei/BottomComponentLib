@@ -29,5 +29,6 @@ typedef NS_ENUM(NSUInteger, ZHFRequestMethod) {
 /*!请求类型*/
 @property (nonatomic, assign) ZHFRequestMethod requestMethod;
 /*!自定义域名（不设置的话，使用默认的域名）*/
+@property (nonatomic, copy) NSString *customDomain;
 @property (nonatomic, copy,readonly) NSString *totalURLString;
 @end

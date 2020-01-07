@@ -14,6 +14,7 @@
 @end
 
 @implementation ZHFRequestParameter
+#pragma mark - Life Cycle
 - (instancetype)init
 {
     self = [super init];
@@ -25,8 +26,19 @@
     return self;
 }
 
+#pragma mark - Private Method
+
+#pragma mark - Public Method
+
+#pragma mark - Event
+
+#pragma mark - Getter, Setter
 - (NSString *)totalURLString {
     return [NSString stringWithFormat:@"%@/%@",self.defaultDomain,self.apiString];
+}
+
+- (void)setCustomDomain:(NSString *)customDomain {
+    self.defaultDomain = customDomain;
 }
 
 @end

@@ -20,6 +20,8 @@
 		910A7CC6217E1ECD00689DCF /* phoneNumPrefix.plist in Resources */ = {isa = PBXBuildFile; fileRef = 910A7CC4217E1ECD00689DCF /* phoneNumPrefix.plist */; };
 		910A7CC7217E1ECD00689DCF /* Document.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910A7CC5217E1ECD00689DCF /* Document.strings */; };
 		9120F20621FF003100E5B90C /* UIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9120F20521FF003000E5B90C /* UIFactory.m */; };
+		91564B3423C46801007AB082 /* ZHFNetworkingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 91564B3323C46801007AB082 /* ZHFNetworkingTest.m */; };
+		915BAFB023C4542D001F8899 /* testDateBL.m in Sources */ = {isa = PBXBuildFile; fileRef = 915BAFAF23C4542D001F8899 /* testDateBL.m */; };
 		915FB8A322842B6000117F59 /* ZHFSysUtitly.m in Sources */ = {isa = PBXBuildFile; fileRef = 915FB8A222842B6000117F59 /* ZHFSysUtitly.m */; };
 		91776EC622AF4D5700BD2E2A /* UIScrollView+BCLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 91776EC522AF4D5700BD2E2A /* UIScrollView+BCLib.m */; };
 		91776EC922AF4FB600BD2E2A /* NSObject+BCLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 91776EC822AF4FB600BD2E2A /* NSObject+BCLib.m */; };
@@ -95,6 +97,8 @@
 		910A7CC5217E1ECD00689DCF /* Document.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Document.strings; sourceTree = "<group>"; };
 		9120F20421FF003000E5B90C /* UIFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIFactory.h; sourceTree = "<group>"; };
 		9120F20521FF003000E5B90C /* UIFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIFactory.m; sourceTree = "<group>"; };
+		91564B3323C46801007AB082 /* ZHFNetworkingTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFNetworkingTest.m; sourceTree = "<group>"; };
+		915BAFAF23C4542D001F8899 /* testDateBL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testDateBL.m; sourceTree = "<group>"; };
 		915FB8A122842B6000117F59 /* ZHFSysUtitly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFSysUtitly.h; sourceTree = "<group>"; };
 		915FB8A222842B6000117F59 /* ZHFSysUtitly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFSysUtitly.m; sourceTree = "<group>"; };
 		91776EC422AF4D5700BD2E2A /* UIScrollView+BCLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+BCLib.h"; sourceTree = "<group>"; };
@@ -361,7 +365,9 @@
 		918B57732170859200E9B71D /* BottomComponentLibTests */ = {
 			isa = PBXGroup;
 			children = (
+				915BAFAF23C4542D001F8899 /* testDateBL.m */,
 				918B57742170859200E9B71D /* BottomComponentLibTests.m */,
+				91564B3323C46801007AB082 /* ZHFNetworkingTest.m */,
 				918B57762170859200E9B71D /* Info.plist */,
 			);
 			path = BottomComponentLibTests;
@@ -658,6 +664,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				918B57752170859200E9B71D /* BottomComponentLibTests.m in Sources */,
+				91564B3423C46801007AB082 /* ZHFNetworkingTest.m in Sources */,
+				915BAFB023C4542D001F8899 /* testDateBL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
