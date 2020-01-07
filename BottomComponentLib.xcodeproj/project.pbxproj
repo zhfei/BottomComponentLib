@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		910A7CAC217E1E8400689DCF /* ImageExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A7C75217E1E8400689DCF /* ImageExtend.swift */; };
-		910A7CB9217E1E8400689DCF /* GlobalConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7C93217E1E8400689DCF /* GlobalConfig.m */; };
-		910A7CBA217E1E8400689DCF /* ZHFRequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7C97217E1E8400689DCF /* ZHFRequestParameter.m */; };
-		910A7CBB217E1E8400689DCF /* ZHFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7C98217E1E8400689DCF /* ZHFNetworking.m */; };
-		910A7CBC217E1E8400689DCF /* ZHFTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7C9B217E1E8400689DCF /* ZHFTopWindow.m */; };
-		910A7CBD217E1E8400689DCF /* ZHFAlertControlle.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7C9E217E1E8400689DCF /* ZHFAlertControlle.m */; };
-		910A7CBE217E1E8400689DCF /* ZHFQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7CA0217E1E8400689DCF /* ZHFQRCodeView.m */; };
-		910A7CBF217E1E8400689DCF /* ZHFProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7CA1217E1E8400689DCF /* ZHFProgressHUD.m */; };
-		910A7CC1217E1E8400689DCF /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7CA6217E1E8400689DCF /* FileManager.m */; };
-		910A7CC3217E1E8400689DCF /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7CAA217E1E8400689DCF /* Utility.m */; };
+		910A7CB9217E1E8400689DCF /* BCGlobalConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7C93217E1E8400689DCF /* BCGlobalConfig.m */; };
+		910A7CBA217E1E8400689DCF /* BCRequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7C97217E1E8400689DCF /* BCRequestParameter.m */; };
+		910A7CBB217E1E8400689DCF /* BCNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7C98217E1E8400689DCF /* BCNetworking.m */; };
+		910A7CBC217E1E8400689DCF /* BCTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7C9B217E1E8400689DCF /* BCTopWindow.m */; };
+		910A7CBD217E1E8400689DCF /* BCAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7C9E217E1E8400689DCF /* BCAlertController.m */; };
+		910A7CBE217E1E8400689DCF /* BCQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7CA0217E1E8400689DCF /* BCQRCodeView.m */; };
+		910A7CBF217E1E8400689DCF /* BCProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7CA1217E1E8400689DCF /* BCProgressHUD.m */; };
+		910A7CC1217E1E8400689DCF /* BCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7CA6217E1E8400689DCF /* BCFileManager.m */; };
+		910A7CC3217E1E8400689DCF /* BCUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A7CAA217E1E8400689DCF /* BCUtility.m */; };
 		910A7CC6217E1ECD00689DCF /* phoneNumPrefix.plist in Resources */ = {isa = PBXBuildFile; fileRef = 910A7CC4217E1ECD00689DCF /* phoneNumPrefix.plist */; };
 		910A7CC7217E1ECD00689DCF /* Document.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910A7CC5217E1ECD00689DCF /* Document.strings */; };
 		9120F20621FF003100E5B90C /* UIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9120F20521FF003000E5B90C /* UIFactory.m */; };
-		91564B3423C46801007AB082 /* ZHFNetworkingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 91564B3323C46801007AB082 /* ZHFNetworkingTest.m */; };
+		91564B3423C46801007AB082 /* BCNetworkingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 91564B3323C46801007AB082 /* BCNetworkingTest.m */; };
 		915BAFB023C4542D001F8899 /* testDateBL.m in Sources */ = {isa = PBXBuildFile; fileRef = 915BAFAF23C4542D001F8899 /* testDateBL.m */; };
-		915FB8A322842B6000117F59 /* ZHFSysUtitly.m in Sources */ = {isa = PBXBuildFile; fileRef = 915FB8A222842B6000117F59 /* ZHFSysUtitly.m */; };
+		915FB8A322842B6000117F59 /* BCSysUtitly.m in Sources */ = {isa = PBXBuildFile; fileRef = 915FB8A222842B6000117F59 /* BCSysUtitly.m */; };
 		91776EC622AF4D5700BD2E2A /* UIScrollView+BCLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 91776EC522AF4D5700BD2E2A /* UIScrollView+BCLib.m */; };
 		91776EC922AF4FB600BD2E2A /* NSObject+BCLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 91776EC822AF4FB600BD2E2A /* NSObject+BCLib.m */; };
 		91776ECC22AF50BA00BD2E2A /* UIView+BCLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 91776ECB22AF50BA00BD2E2A /* UIView+BCLib.m */; };
@@ -37,7 +37,7 @@
 		91776EE722AF6A9B00BD2E2A /* UIButton+BCLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 91776EE622AF6A9B00BD2E2A /* UIButton+BCLib.m */; };
 		91776EEA22AF6B6800BD2E2A /* NSArray+BCLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 91776EE922AF6B6800BD2E2A /* NSArray+BCLib.m */; };
 		91776EED22AF6BC400BD2E2A /* UITextView+BCLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 91776EEC22AF6BC400BD2E2A /* UITextView+BCLib.m */; };
-		917A3BC3217F78A7009094F3 /* ZHFLogerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A3BC2217F78A7009094F3 /* ZHFLogerManager.m */; };
+		917A3BC3217F78A7009094F3 /* BCLogerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A3BC2217F78A7009094F3 /* BCLogerManager.m */; };
 		918B575D2170858F00E9B71D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B575C2170858F00E9B71D /* AppDelegate.m */; };
 		918B57602170858F00E9B71D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B575F2170858F00E9B71D /* ViewController.m */; };
 		918B57632170858F00E9B71D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918B57612170858F00E9B71D /* Main.storyboard */; };
@@ -45,17 +45,17 @@
 		918B57682170859200E9B71D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918B57662170859200E9B71D /* LaunchScreen.storyboard */; };
 		918B576B2170859200E9B71D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B576A2170859200E9B71D /* main.m */; };
 		918B57752170859200E9B71D /* BottomComponentLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B57742170859200E9B71D /* BottomComponentLibTests.m */; };
-		9192113121EDBD6900CD9C1B /* ZHFRealmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192113021EDBD6900CD9C1B /* ZHFRealmManager.m */; };
-		9192113421EDC18D00CD9C1B /* ZHFPruduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192113321EDC18D00CD9C1B /* ZHFPruduct.m */; };
-		9192113721EDC2D300CD9C1B /* ZHFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192113621EDC2D300CD9C1B /* ZHFPerson.m */; };
-		919F79D721904BD100A82C0D /* ZHFPersistenceLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79D621904BD100A82C0D /* ZHFPersistenceLibrary.m */; };
-		919F79DB21904E2E00A82C0D /* ZHFPersistenceSQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79DA21904E2E00A82C0D /* ZHFPersistenceSQL.m */; };
-		919F79DE21904FEF00A82C0D /* ZHFPersistenceRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79DD21904FEF00A82C0D /* ZHFPersistenceRealm.m */; };
+		9192113121EDBD6900CD9C1B /* BCRealmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192113021EDBD6900CD9C1B /* BCRealmManager.m */; };
+		9192113421EDC18D00CD9C1B /* BCPruduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192113321EDC18D00CD9C1B /* BCPruduct.m */; };
+		9192113721EDC2D300CD9C1B /* BCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192113621EDC2D300CD9C1B /* BCPerson.m */; };
+		919F79D721904BD100A82C0D /* BCPersistenceLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79D621904BD100A82C0D /* BCPersistenceLibrary.m */; };
+		919F79DB21904E2E00A82C0D /* BCPersistenceSQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79DA21904E2E00A82C0D /* BCPersistenceSQL.m */; };
+		919F79DE21904FEF00A82C0D /* BCPersistenceRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F79DD21904FEF00A82C0D /* BCPersistenceRealm.m */; };
 		91A57FB02221A22200DBA8D2 /* BottomComponentLib.png in Resources */ = {isa = PBXBuildFile; fileRef = 91A57FAF2221A22200DBA8D2 /* BottomComponentLib.png */; };
-		91AC943021F84D8500065458 /* ZFAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC942A21F84D8500065458 /* ZFAlertViewController.m */; };
-		91AC943121F84D8500065458 /* ZFAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AC942C21F84D8500065458 /* ZFAlertViewController.xib */; };
-		91AC943221F84D8500065458 /* ZFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC942E21F84D8500065458 /* ZFAlertView.m */; };
-		91AC943321F84D8500065458 /* ZFAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AC942F21F84D8500065458 /* ZFAlertView.xib */; };
+		91AC943021F84D8500065458 /* BCAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC942A21F84D8500065458 /* BCAlertViewController.m */; };
+		91AC943121F84D8500065458 /* BCAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AC942C21F84D8500065458 /* BCAlertViewController.xib */; };
+		91AC943221F84D8500065458 /* BCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AC942E21F84D8500065458 /* BCAlertView.m */; };
+		91AC943321F84D8500065458 /* BCAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AC942F21F84D8500065458 /* BCAlertView.xib */; };
 		C9DEF5A9A8F712C3D2844D35 /* libPods-BottomComponentLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D88CD5292384518C4FC820CA /* libPods-BottomComponentLib.a */; };
 /* End PBXBuildFile section */
 
@@ -73,34 +73,34 @@
 		4C41DF8010BFB3699E8B9D9C /* Pods-BottomComponentLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomComponentLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BottomComponentLib/Pods-BottomComponentLib.debug.xcconfig"; sourceTree = "<group>"; };
 		910A7C75217E1E8400689DCF /* ImageExtend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtend.swift; sourceTree = "<group>"; };
 		910A7C76217E1E8400689DCF /* BottomComponentLib-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BottomComponentLib-Bridging-Header.h"; sourceTree = "<group>"; };
-		910A7C92217E1E8400689DCF /* GlobalConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConfig.h; sourceTree = "<group>"; };
-		910A7C93217E1E8400689DCF /* GlobalConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalConfig.m; sourceTree = "<group>"; };
-		910A7C95217E1E8400689DCF /* ZHFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFNetworking.h; sourceTree = "<group>"; };
-		910A7C96217E1E8400689DCF /* ZHFRequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFRequestParameter.h; sourceTree = "<group>"; };
-		910A7C97217E1E8400689DCF /* ZHFRequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHFRequestParameter.m; sourceTree = "<group>"; };
-		910A7C98217E1E8400689DCF /* ZHFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHFNetworking.m; sourceTree = "<group>"; };
+		910A7C92217E1E8400689DCF /* BCGlobalConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCGlobalConfig.h; sourceTree = "<group>"; };
+		910A7C93217E1E8400689DCF /* BCGlobalConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCGlobalConfig.m; sourceTree = "<group>"; };
+		910A7C95217E1E8400689DCF /* BCNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCNetworking.h; sourceTree = "<group>"; };
+		910A7C96217E1E8400689DCF /* BCRequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRequestParameter.h; sourceTree = "<group>"; };
+		910A7C97217E1E8400689DCF /* BCRequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCRequestParameter.m; sourceTree = "<group>"; };
+		910A7C98217E1E8400689DCF /* BCNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCNetworking.m; sourceTree = "<group>"; };
 		910A7C99217E1E8400689DCF /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
-		910A7C9B217E1E8400689DCF /* ZHFTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHFTopWindow.m; sourceTree = "<group>"; };
-		910A7C9C217E1E8400689DCF /* ZHFProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFProgressHUD.h; sourceTree = "<group>"; };
-		910A7C9D217E1E8400689DCF /* ZHFQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFQRCodeView.h; sourceTree = "<group>"; };
-		910A7C9E217E1E8400689DCF /* ZHFAlertControlle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHFAlertControlle.m; sourceTree = "<group>"; };
-		910A7C9F217E1E8400689DCF /* ZHFTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFTopWindow.h; sourceTree = "<group>"; };
-		910A7CA0217E1E8400689DCF /* ZHFQRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHFQRCodeView.m; sourceTree = "<group>"; };
-		910A7CA1217E1E8400689DCF /* ZHFProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHFProgressHUD.m; sourceTree = "<group>"; };
-		910A7CA2217E1E8400689DCF /* ZHFAlertControlle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFAlertControlle.h; sourceTree = "<group>"; };
-		910A7CA5217E1E8400689DCF /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
-		910A7CA6217E1E8400689DCF /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
-		910A7CA7217E1E8400689DCF /* ZHFFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFFoundation.h; sourceTree = "<group>"; };
-		910A7CAA217E1E8400689DCF /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
-		910A7CAB217E1E8400689DCF /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		910A7C9B217E1E8400689DCF /* BCTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCTopWindow.m; sourceTree = "<group>"; };
+		910A7C9C217E1E8400689DCF /* BCProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCProgressHUD.h; sourceTree = "<group>"; };
+		910A7C9D217E1E8400689DCF /* BCQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCQRCodeView.h; sourceTree = "<group>"; };
+		910A7C9E217E1E8400689DCF /* BCAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAlertController.m; sourceTree = "<group>"; };
+		910A7C9F217E1E8400689DCF /* BCTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCTopWindow.h; sourceTree = "<group>"; };
+		910A7CA0217E1E8400689DCF /* BCQRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCQRCodeView.m; sourceTree = "<group>"; };
+		910A7CA1217E1E8400689DCF /* BCProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCProgressHUD.m; sourceTree = "<group>"; };
+		910A7CA2217E1E8400689DCF /* BCAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAlertController.h; sourceTree = "<group>"; };
+		910A7CA5217E1E8400689DCF /* BCFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCFileManager.h; sourceTree = "<group>"; };
+		910A7CA6217E1E8400689DCF /* BCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCFileManager.m; sourceTree = "<group>"; };
+		910A7CA7217E1E8400689DCF /* BCFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCFoundation.h; sourceTree = "<group>"; };
+		910A7CAA217E1E8400689DCF /* BCUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCUtility.m; sourceTree = "<group>"; };
+		910A7CAB217E1E8400689DCF /* BCUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCUtility.h; sourceTree = "<group>"; };
 		910A7CC4217E1ECD00689DCF /* phoneNumPrefix.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = phoneNumPrefix.plist; sourceTree = "<group>"; };
 		910A7CC5217E1ECD00689DCF /* Document.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Document.strings; sourceTree = "<group>"; };
 		9120F20421FF003000E5B90C /* UIFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIFactory.h; sourceTree = "<group>"; };
 		9120F20521FF003000E5B90C /* UIFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIFactory.m; sourceTree = "<group>"; };
-		91564B3323C46801007AB082 /* ZHFNetworkingTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFNetworkingTest.m; sourceTree = "<group>"; };
+		91564B3323C46801007AB082 /* BCNetworkingTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCNetworkingTest.m; sourceTree = "<group>"; };
 		915BAFAF23C4542D001F8899 /* testDateBL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testDateBL.m; sourceTree = "<group>"; };
-		915FB8A122842B6000117F59 /* ZHFSysUtitly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFSysUtitly.h; sourceTree = "<group>"; };
-		915FB8A222842B6000117F59 /* ZHFSysUtitly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFSysUtitly.m; sourceTree = "<group>"; };
+		915FB8A122842B6000117F59 /* BCSysUtitly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCSysUtitly.h; sourceTree = "<group>"; };
+		915FB8A222842B6000117F59 /* BCSysUtitly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCSysUtitly.m; sourceTree = "<group>"; };
 		91776EC422AF4D5700BD2E2A /* UIScrollView+BCLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+BCLib.h"; sourceTree = "<group>"; };
 		91776EC522AF4D5700BD2E2A /* UIScrollView+BCLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+BCLib.m"; sourceTree = "<group>"; };
 		91776EC722AF4FB600BD2E2A /* NSObject+BCLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+BCLib.h"; sourceTree = "<group>"; };
@@ -129,8 +129,8 @@
 		91776EE922AF6B6800BD2E2A /* NSArray+BCLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BCLib.m"; sourceTree = "<group>"; };
 		91776EEB22AF6BC400BD2E2A /* UITextView+BCLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+BCLib.h"; sourceTree = "<group>"; };
 		91776EEC22AF6BC400BD2E2A /* UITextView+BCLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BCLib.m"; sourceTree = "<group>"; };
-		917A3BC1217F78A7009094F3 /* ZHFLogerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFLogerManager.h; sourceTree = "<group>"; };
-		917A3BC2217F78A7009094F3 /* ZHFLogerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFLogerManager.m; sourceTree = "<group>"; };
+		917A3BC1217F78A7009094F3 /* BCLogerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCLogerManager.h; sourceTree = "<group>"; };
+		917A3BC2217F78A7009094F3 /* BCLogerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCLogerManager.m; sourceTree = "<group>"; };
 		918B57582170858F00E9B71D /* BottomComponentLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottomComponentLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		918B575B2170858F00E9B71D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		918B575C2170858F00E9B71D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -144,26 +144,26 @@
 		918B57702170859200E9B71D /* BottomComponentLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottomComponentLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		918B57742170859200E9B71D /* BottomComponentLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomComponentLibTests.m; sourceTree = "<group>"; };
 		918B57762170859200E9B71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9192112F21EDBD6900CD9C1B /* ZHFRealmManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFRealmManager.h; sourceTree = "<group>"; };
-		9192113021EDBD6900CD9C1B /* ZHFRealmManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFRealmManager.m; sourceTree = "<group>"; };
-		9192113221EDC18D00CD9C1B /* ZHFPruduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFPruduct.h; sourceTree = "<group>"; };
-		9192113321EDC18D00CD9C1B /* ZHFPruduct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFPruduct.m; sourceTree = "<group>"; };
-		9192113521EDC2D300CD9C1B /* ZHFPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFPerson.h; sourceTree = "<group>"; };
-		9192113621EDC2D300CD9C1B /* ZHFPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFPerson.m; sourceTree = "<group>"; };
-		919F79D521904BD100A82C0D /* ZHFPersistenceLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFPersistenceLibrary.h; sourceTree = "<group>"; };
-		919F79D621904BD100A82C0D /* ZHFPersistenceLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHFPersistenceLibrary.m; sourceTree = "<group>"; };
-		919F79D821904CE400A82C0D /* ZHFPersistenceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFPersistenceProtocol.h; sourceTree = "<group>"; };
-		919F79D921904E2E00A82C0D /* ZHFPersistenceSQL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFPersistenceSQL.h; sourceTree = "<group>"; };
-		919F79DA21904E2E00A82C0D /* ZHFPersistenceSQL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFPersistenceSQL.m; sourceTree = "<group>"; };
-		919F79DC21904FEF00A82C0D /* ZHFPersistenceRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFPersistenceRealm.h; sourceTree = "<group>"; };
-		919F79DD21904FEF00A82C0D /* ZHFPersistenceRealm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHFPersistenceRealm.m; sourceTree = "<group>"; };
+		9192112F21EDBD6900CD9C1B /* BCRealmManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCRealmManager.h; sourceTree = "<group>"; };
+		9192113021EDBD6900CD9C1B /* BCRealmManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCRealmManager.m; sourceTree = "<group>"; };
+		9192113221EDC18D00CD9C1B /* BCPruduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCPruduct.h; sourceTree = "<group>"; };
+		9192113321EDC18D00CD9C1B /* BCPruduct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCPruduct.m; sourceTree = "<group>"; };
+		9192113521EDC2D300CD9C1B /* BCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCPerson.h; sourceTree = "<group>"; };
+		9192113621EDC2D300CD9C1B /* BCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCPerson.m; sourceTree = "<group>"; };
+		919F79D521904BD100A82C0D /* BCPersistenceLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCPersistenceLibrary.h; sourceTree = "<group>"; };
+		919F79D621904BD100A82C0D /* BCPersistenceLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCPersistenceLibrary.m; sourceTree = "<group>"; };
+		919F79D821904CE400A82C0D /* BCPersistenceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCPersistenceProtocol.h; sourceTree = "<group>"; };
+		919F79D921904E2E00A82C0D /* BCPersistenceSQL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCPersistenceSQL.h; sourceTree = "<group>"; };
+		919F79DA21904E2E00A82C0D /* BCPersistenceSQL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCPersistenceSQL.m; sourceTree = "<group>"; };
+		919F79DC21904FEF00A82C0D /* BCPersistenceRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCPersistenceRealm.h; sourceTree = "<group>"; };
+		919F79DD21904FEF00A82C0D /* BCPersistenceRealm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCPersistenceRealm.m; sourceTree = "<group>"; };
 		91A57FAF2221A22200DBA8D2 /* BottomComponentLib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BottomComponentLib.png; sourceTree = "<group>"; };
-		91AC942A21F84D8500065458 /* ZFAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFAlertViewController.m; sourceTree = "<group>"; };
-		91AC942B21F84D8500065458 /* ZFAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFAlertViewController.h; sourceTree = "<group>"; };
-		91AC942C21F84D8500065458 /* ZFAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFAlertViewController.xib; sourceTree = "<group>"; };
-		91AC942D21F84D8500065458 /* ZFAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFAlertView.h; sourceTree = "<group>"; };
-		91AC942E21F84D8500065458 /* ZFAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFAlertView.m; sourceTree = "<group>"; };
-		91AC942F21F84D8500065458 /* ZFAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFAlertView.xib; sourceTree = "<group>"; };
+		91AC942A21F84D8500065458 /* BCAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAlertViewController.m; sourceTree = "<group>"; };
+		91AC942B21F84D8500065458 /* BCAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAlertViewController.h; sourceTree = "<group>"; };
+		91AC942C21F84D8500065458 /* BCAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BCAlertViewController.xib; sourceTree = "<group>"; };
+		91AC942D21F84D8500065458 /* BCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAlertView.h; sourceTree = "<group>"; };
+		91AC942E21F84D8500065458 /* BCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAlertView.m; sourceTree = "<group>"; };
+		91AC942F21F84D8500065458 /* BCAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BCAlertView.xib; sourceTree = "<group>"; };
 		D88CD5292384518C4FC820CA /* libPods-BottomComponentLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BottomComponentLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6048094E0DAB7E773A2A73C /* Pods-BottomComponentLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomComponentLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-BottomComponentLib/Pods-BottomComponentLib.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,9 +210,9 @@
 				9120F20321FF001E00E5B90C /* UIFactory */,
 				9192112E21EDBD4200CD9C1B /* RealmManager */,
 				910A7C99217E1E8400689DCF /* Macro.h */,
-				910A7CA7217E1E8400689DCF /* ZHFFoundation.h */,
-				915FB8A122842B6000117F59 /* ZHFSysUtitly.h */,
-				915FB8A222842B6000117F59 /* ZHFSysUtitly.m */,
+				910A7CA7217E1E8400689DCF /* BCFoundation.h */,
+				915FB8A122842B6000117F59 /* BCSysUtitly.h */,
+				915FB8A222842B6000117F59 /* BCSysUtitly.m */,
 				910A7C78217E1E8400689DCF /* Category */,
 				910A7C91217E1E8400689DCF /* Config */,
 				910A7C94217E1E8400689DCF /* NetWorking */,
@@ -261,8 +261,8 @@
 		910A7C91217E1E8400689DCF /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				910A7C92217E1E8400689DCF /* GlobalConfig.h */,
-				910A7C93217E1E8400689DCF /* GlobalConfig.m */,
+				910A7C92217E1E8400689DCF /* BCGlobalConfig.h */,
+				910A7C93217E1E8400689DCF /* BCGlobalConfig.m */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -270,10 +270,10 @@
 		910A7C94217E1E8400689DCF /* NetWorking */ = {
 			isa = PBXGroup;
 			children = (
-				910A7C95217E1E8400689DCF /* ZHFNetworking.h */,
-				910A7C98217E1E8400689DCF /* ZHFNetworking.m */,
-				910A7C96217E1E8400689DCF /* ZHFRequestParameter.h */,
-				910A7C97217E1E8400689DCF /* ZHFRequestParameter.m */,
+				910A7C95217E1E8400689DCF /* BCNetworking.h */,
+				910A7C98217E1E8400689DCF /* BCNetworking.m */,
+				910A7C96217E1E8400689DCF /* BCRequestParameter.h */,
+				910A7C97217E1E8400689DCF /* BCRequestParameter.m */,
 			);
 			path = NetWorking;
 			sourceTree = "<group>";
@@ -283,14 +283,14 @@
 			children = (
 				91AC942921F84C7900065458 /* CustomAlertVC */,
 				919F79D421904BD100A82C0D /* PersistenceLibrary */,
-				910A7C9F217E1E8400689DCF /* ZHFTopWindow.h */,
-				910A7C9B217E1E8400689DCF /* ZHFTopWindow.m */,
-				910A7C9D217E1E8400689DCF /* ZHFQRCodeView.h */,
-				910A7CA0217E1E8400689DCF /* ZHFQRCodeView.m */,
-				910A7C9C217E1E8400689DCF /* ZHFProgressHUD.h */,
-				910A7CA1217E1E8400689DCF /* ZHFProgressHUD.m */,
-				910A7CA2217E1E8400689DCF /* ZHFAlertControlle.h */,
-				910A7C9E217E1E8400689DCF /* ZHFAlertControlle.m */,
+				910A7C9F217E1E8400689DCF /* BCTopWindow.h */,
+				910A7C9B217E1E8400689DCF /* BCTopWindow.m */,
+				910A7C9D217E1E8400689DCF /* BCQRCodeView.h */,
+				910A7CA0217E1E8400689DCF /* BCQRCodeView.m */,
+				910A7C9C217E1E8400689DCF /* BCProgressHUD.h */,
+				910A7CA1217E1E8400689DCF /* BCProgressHUD.m */,
+				910A7CA2217E1E8400689DCF /* BCAlertController.h */,
+				910A7C9E217E1E8400689DCF /* BCAlertController.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -298,10 +298,10 @@
 		910A7CA4217E1E8400689DCF /* FileManager */ = {
 			isa = PBXGroup;
 			children = (
-				910A7CA5217E1E8400689DCF /* FileManager.h */,
-				910A7CA6217E1E8400689DCF /* FileManager.m */,
-				917A3BC1217F78A7009094F3 /* ZHFLogerManager.h */,
-				917A3BC2217F78A7009094F3 /* ZHFLogerManager.m */,
+				910A7CA5217E1E8400689DCF /* BCFileManager.h */,
+				910A7CA6217E1E8400689DCF /* BCFileManager.m */,
+				917A3BC1217F78A7009094F3 /* BCLogerManager.h */,
+				917A3BC2217F78A7009094F3 /* BCLogerManager.m */,
 			);
 			path = FileManager;
 			sourceTree = "<group>";
@@ -309,8 +309,8 @@
 		910A7CA9217E1E8400689DCF /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				910A7CAB217E1E8400689DCF /* Utility.h */,
-				910A7CAA217E1E8400689DCF /* Utility.m */,
+				910A7CAB217E1E8400689DCF /* BCUtility.h */,
+				910A7CAA217E1E8400689DCF /* BCUtility.m */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -367,7 +367,7 @@
 			children = (
 				915BAFAF23C4542D001F8899 /* testDateBL.m */,
 				918B57742170859200E9B71D /* BottomComponentLibTests.m */,
-				91564B3323C46801007AB082 /* ZHFNetworkingTest.m */,
+				91564B3323C46801007AB082 /* BCNetworkingTest.m */,
 				918B57762170859200E9B71D /* Info.plist */,
 			);
 			path = BottomComponentLibTests;
@@ -386,12 +386,12 @@
 		9192112E21EDBD4200CD9C1B /* RealmManager */ = {
 			isa = PBXGroup;
 			children = (
-				9192112F21EDBD6900CD9C1B /* ZHFRealmManager.h */,
-				9192113021EDBD6900CD9C1B /* ZHFRealmManager.m */,
-				9192113221EDC18D00CD9C1B /* ZHFPruduct.h */,
-				9192113321EDC18D00CD9C1B /* ZHFPruduct.m */,
-				9192113521EDC2D300CD9C1B /* ZHFPerson.h */,
-				9192113621EDC2D300CD9C1B /* ZHFPerson.m */,
+				9192112F21EDBD6900CD9C1B /* BCRealmManager.h */,
+				9192113021EDBD6900CD9C1B /* BCRealmManager.m */,
+				9192113221EDC18D00CD9C1B /* BCPruduct.h */,
+				9192113321EDC18D00CD9C1B /* BCPruduct.m */,
+				9192113521EDC2D300CD9C1B /* BCPerson.h */,
+				9192113621EDC2D300CD9C1B /* BCPerson.m */,
 			);
 			path = RealmManager;
 			sourceTree = "<group>";
@@ -399,13 +399,13 @@
 		919F79D421904BD100A82C0D /* PersistenceLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				919F79D521904BD100A82C0D /* ZHFPersistenceLibrary.h */,
-				919F79D621904BD100A82C0D /* ZHFPersistenceLibrary.m */,
-				919F79D821904CE400A82C0D /* ZHFPersistenceProtocol.h */,
-				919F79D921904E2E00A82C0D /* ZHFPersistenceSQL.h */,
-				919F79DA21904E2E00A82C0D /* ZHFPersistenceSQL.m */,
-				919F79DC21904FEF00A82C0D /* ZHFPersistenceRealm.h */,
-				919F79DD21904FEF00A82C0D /* ZHFPersistenceRealm.m */,
+				919F79D521904BD100A82C0D /* BCPersistenceLibrary.h */,
+				919F79D621904BD100A82C0D /* BCPersistenceLibrary.m */,
+				919F79D821904CE400A82C0D /* BCPersistenceProtocol.h */,
+				919F79D921904E2E00A82C0D /* BCPersistenceSQL.h */,
+				919F79DA21904E2E00A82C0D /* BCPersistenceSQL.m */,
+				919F79DC21904FEF00A82C0D /* BCPersistenceRealm.h */,
+				919F79DD21904FEF00A82C0D /* BCPersistenceRealm.m */,
 			);
 			path = PersistenceLibrary;
 			sourceTree = "<group>";
@@ -421,12 +421,12 @@
 		91AC942921F84C7900065458 /* CustomAlertVC */ = {
 			isa = PBXGroup;
 			children = (
-				91AC942D21F84D8500065458 /* ZFAlertView.h */,
-				91AC942E21F84D8500065458 /* ZFAlertView.m */,
-				91AC942F21F84D8500065458 /* ZFAlertView.xib */,
-				91AC942B21F84D8500065458 /* ZFAlertViewController.h */,
-				91AC942A21F84D8500065458 /* ZFAlertViewController.m */,
-				91AC942C21F84D8500065458 /* ZFAlertViewController.xib */,
+				91AC942D21F84D8500065458 /* BCAlertView.h */,
+				91AC942E21F84D8500065458 /* BCAlertView.m */,
+				91AC942F21F84D8500065458 /* BCAlertView.xib */,
+				91AC942B21F84D8500065458 /* BCAlertViewController.h */,
+				91AC942A21F84D8500065458 /* BCAlertViewController.m */,
+				91AC942C21F84D8500065458 /* BCAlertViewController.xib */,
 			);
 			path = CustomAlertVC;
 			sourceTree = "<group>";
@@ -536,10 +536,10 @@
 				918B57682170859200E9B71D /* LaunchScreen.storyboard in Resources */,
 				910A7CC7217E1ECD00689DCF /* Document.strings in Resources */,
 				918B57652170859200E9B71D /* Assets.xcassets in Resources */,
-				91AC943321F84D8500065458 /* ZFAlertView.xib in Resources */,
+				91AC943321F84D8500065458 /* BCAlertView.xib in Resources */,
 				910A7CC6217E1ECD00689DCF /* phoneNumPrefix.plist in Resources */,
 				918B57632170858F00E9B71D /* Main.storyboard in Resources */,
-				91AC943121F84D8500065458 /* ZFAlertViewController.xib in Resources */,
+				91AC943121F84D8500065458 /* BCAlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,41 +618,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9192113121EDBD6900CD9C1B /* ZHFRealmManager.m in Sources */,
+				9192113121EDBD6900CD9C1B /* BCRealmManager.m in Sources */,
 				91776EE722AF6A9B00BD2E2A /* UIButton+BCLib.m in Sources */,
-				91AC943021F84D8500065458 /* ZFAlertViewController.m in Sources */,
-				917A3BC3217F78A7009094F3 /* ZHFLogerManager.m in Sources */,
-				910A7CC3217E1E8400689DCF /* Utility.m in Sources */,
+				91AC943021F84D8500065458 /* BCAlertViewController.m in Sources */,
+				917A3BC3217F78A7009094F3 /* BCLogerManager.m in Sources */,
+				910A7CC3217E1E8400689DCF /* BCUtility.m in Sources */,
 				918B57602170858F00E9B71D /* ViewController.m in Sources */,
 				91776ED222AF55BE00BD2E2A /* UILabel+BCLib.m in Sources */,
 				918B576B2170859200E9B71D /* main.m in Sources */,
-				915FB8A322842B6000117F59 /* ZHFSysUtitly.m in Sources */,
+				915FB8A322842B6000117F59 /* BCSysUtitly.m in Sources */,
 				9120F20621FF003100E5B90C /* UIFactory.m in Sources */,
-				910A7CBD217E1E8400689DCF /* ZHFAlertControlle.m in Sources */,
-				910A7CBB217E1E8400689DCF /* ZHFNetworking.m in Sources */,
+				910A7CBD217E1E8400689DCF /* BCAlertController.m in Sources */,
+				910A7CBB217E1E8400689DCF /* BCNetworking.m in Sources */,
 				91776ED522AF563500BD2E2A /* CAShapeLayer+BCLib.m in Sources */,
-				910A7CC1217E1E8400689DCF /* FileManager.m in Sources */,
-				910A7CBE217E1E8400689DCF /* ZHFQRCodeView.m in Sources */,
+				910A7CC1217E1E8400689DCF /* BCFileManager.m in Sources */,
+				910A7CBE217E1E8400689DCF /* BCQRCodeView.m in Sources */,
 				91776EDE22AF58C900BD2E2A /* NSDate+BCLib.m in Sources */,
-				919F79DE21904FEF00A82C0D /* ZHFPersistenceRealm.m in Sources */,
+				919F79DE21904FEF00A82C0D /* BCPersistenceRealm.m in Sources */,
 				91776EE422AF69F700BD2E2A /* UIColor+BCLib.m in Sources */,
-				9192113721EDC2D300CD9C1B /* ZHFPerson.m in Sources */,
+				9192113721EDC2D300CD9C1B /* BCPerson.m in Sources */,
 				91776ECC22AF50BA00BD2E2A /* UIView+BCLib.m in Sources */,
-				910A7CBF217E1E8400689DCF /* ZHFProgressHUD.m in Sources */,
-				919F79D721904BD100A82C0D /* ZHFPersistenceLibrary.m in Sources */,
-				9192113421EDC18D00CD9C1B /* ZHFPruduct.m in Sources */,
-				91AC943221F84D8500065458 /* ZFAlertView.m in Sources */,
+				910A7CBF217E1E8400689DCF /* BCProgressHUD.m in Sources */,
+				919F79D721904BD100A82C0D /* BCPersistenceLibrary.m in Sources */,
+				9192113421EDC18D00CD9C1B /* BCPruduct.m in Sources */,
+				91AC943221F84D8500065458 /* BCAlertView.m in Sources */,
 				91776EED22AF6BC400BD2E2A /* UITextView+BCLib.m in Sources */,
-				919F79DB21904E2E00A82C0D /* ZHFPersistenceSQL.m in Sources */,
+				919F79DB21904E2E00A82C0D /* BCPersistenceSQL.m in Sources */,
 				918B575D2170858F00E9B71D /* AppDelegate.m in Sources */,
 				91776ED822AF56B600BD2E2A /* NSDecimalNumber+BCLib.m in Sources */,
-				910A7CB9217E1E8400689DCF /* GlobalConfig.m in Sources */,
-				910A7CBC217E1E8400689DCF /* ZHFTopWindow.m in Sources */,
+				910A7CB9217E1E8400689DCF /* BCGlobalConfig.m in Sources */,
+				910A7CBC217E1E8400689DCF /* BCTopWindow.m in Sources */,
 				91776EDB22AF57A000BD2E2A /* NSString+BCLib.m in Sources */,
 				910A7CAC217E1E8400689DCF /* ImageExtend.swift in Sources */,
 				91776ECF22AF550100BD2E2A /* UIImage+BCLib.m in Sources */,
 				91776EE122AF693900BD2E2A /* NSDateFormatter+BCLib.m in Sources */,
-				910A7CBA217E1E8400689DCF /* ZHFRequestParameter.m in Sources */,
+				910A7CBA217E1E8400689DCF /* BCRequestParameter.m in Sources */,
 				91776EC622AF4D5700BD2E2A /* UIScrollView+BCLib.m in Sources */,
 				91776EEA22AF6B6800BD2E2A /* NSArray+BCLib.m in Sources */,
 				91776EC922AF4FB600BD2E2A /* NSObject+BCLib.m in Sources */,
@@ -664,7 +664,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				918B57752170859200E9B71D /* BottomComponentLibTests.m in Sources */,
-				91564B3423C46801007AB082 /* ZHFNetworkingTest.m in Sources */,
+				91564B3423C46801007AB082 /* BCNetworkingTest.m in Sources */,
 				915BAFB023C4542D001F8899 /* testDateBL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -823,7 +823,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ZHF.BottomComponentLib;
+				PRODUCT_BUNDLE_IDENTIFIER = BC.BottomComponentLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SRC/Swift/BottomComponentLib-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -846,7 +846,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ZHF.BottomComponentLib;
+				PRODUCT_BUNDLE_IDENTIFIER = BC.BottomComponentLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SRC/Swift/BottomComponentLib-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;

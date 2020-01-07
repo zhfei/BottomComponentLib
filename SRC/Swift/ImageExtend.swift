@@ -12,7 +12,7 @@ import UIKit
 extension UIImage {
     
     
-    static func zhf_drawImageWithImageNamed(_ name: String) -> UIImage {
+    static func bc_drawImageWithImageNamed(_ name: String) -> UIImage {
         let image = UIImage(named: name)
         UIGraphicsBeginImageContext((image?.size)!)
         image?.draw(in: CGRect(x: 0, y: 0, width: (image?.size.width)!, height: (image?.size.height)!))
@@ -21,7 +21,7 @@ extension UIImage {
         return resultImage!
     }
     
-    static func zhf_waterImage(_ name: String, waterText:NSString, rect: CGRect) -> UIImage {
+    static func bc_waterImage(_ name: String, waterText:NSString, rect: CGRect) -> UIImage {
         let image = UIImage(named: name)
 //        let rect = UIScreen.main.bounds
         UIGraphicsBeginImageContextWithOptions(rect.size, true, 1)
@@ -36,7 +36,7 @@ extension UIImage {
         return result!
     }
     
-    static func zhf_waterImage(_ name: String, rect: CGRect, waterImageName:String, waterRect:CGRect) -> UIImage {
+    static func bc_waterImage(_ name: String, rect: CGRect, waterImageName:String, waterRect:CGRect) -> UIImage {
         let image = UIImage(named: name)
         UIGraphicsBeginImageContextWithOptions(rect.size, true, 1)
         image?.draw(in: CGRect(x: 0, y: 0, width: rect.size.width, height: rect.size.height))
@@ -47,7 +47,7 @@ extension UIImage {
         return result!
     }
     
-    static func zhf_clipCircleImage(_ name: String, rect: CGRect, circleRect:CGRect) -> UIImage {
+    static func bc_clipCircleImage(_ name: String, rect: CGRect, circleRect:CGRect) -> UIImage {
         let image = UIImage(named: name)
         UIGraphicsBeginImageContextWithOptions(rect.size, true, 1)
         
@@ -61,7 +61,7 @@ extension UIImage {
         return result!
     }
     
-    static func zhf_clipCircleImage(_ name: String, rect: CGRect, circleRect:CGRect, borderWidth:CGFloat, borderColor:UIColor) -> UIImage {
+    static func bc_clipCircleImage(_ name: String, rect: CGRect, circleRect:CGRect, borderWidth:CGFloat, borderColor:UIColor) -> UIImage {
         let image = UIImage(named: name)
         UIGraphicsBeginImageContextWithOptions(rect.size, true, 1)
         
@@ -79,7 +79,7 @@ extension UIImage {
         return result!
     }
     
-    static func zhf_cutScreenWithView(_ view: UIView, completeBlock: ((_ image: UIImage, _ imageData: NSData) -> ()))  {
+    static func bc_cutScreenWithView(_ view: UIView, completeBlock: ((_ image: UIImage, _ imageData: NSData) -> ()))  {
         UIGraphicsBeginImageContext(view.bounds.size)
         let context = UIGraphicsGetCurrentContext()
         
@@ -95,7 +95,7 @@ extension UIImage {
         completeBlock(resultImage!,resultData as! NSData)
     }
     
-    static func zhf_cutScreenWithView(_ view: UIView, cutFrame:CGRect, completeBlock: ((_ image: UIImage, _ imageData: NSData) -> ()))  {
+    static func bc_cutScreenWithView(_ view: UIView, cutFrame:CGRect, completeBlock: ((_ image: UIImage, _ imageData: NSData) -> ()))  {
         UIGraphicsBeginImageContext(view.bounds.size)
         let context = UIGraphicsGetCurrentContext()
         
@@ -117,7 +117,7 @@ extension UIImage {
         completeBlock(resultImage!,resultData as! NSData)
     }
     
-    static func zhf_wipeImage(_ view: UIView, currentPoint: CGPoint) -> UIImage {
+    static func bc_wipeImage(_ view: UIView, currentPoint: CGPoint) -> UIImage {
         let nowPoint = currentPoint
         
         let offsetX = nowPoint.x - 10

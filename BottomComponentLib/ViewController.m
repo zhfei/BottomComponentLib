@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "ZHFLogerManager.h"
-#include "ZHFProgressHUD.h"
-#import "Utility.h"
+#import "BCLogerManager.h"
+#include "BCProgressHUD.h"
+#import "BCUtility.h"
 
 @interface ViewController ()
 
@@ -29,13 +29,13 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [Utility executeTime:^{
+    [BCUtility executeTime:^{
         NSString *str = [NSString stringWithFormat:@"touche: %@",[touches anyObject]];
-        [ZHFLogerManager log:str level:ZHF_Level_Warn tag:ZHF_Tag_default];
+        [BCLogerManager log:str level:BC_Level_Warn tag:BC_Tag_default];
         
-        //    [ZHFProgressHUD popupSuccessMessage:@"成功"];
-        //    [ZHFProgressHUD popToastMessage:@"成功"];
-        [ZHFProgressHUD popMessage:@"请先开启手势密码\n请先开启手势密码"];
+        //    [BCProgressHUD popupSuccessMessage:@"成功"];
+        //    [BCProgressHUD popToastMessage:@"成功"];
+        [BCProgressHUD popMessage:@"请先开启手势密码\n请先开启手势密码"];
     }];
     
 }
